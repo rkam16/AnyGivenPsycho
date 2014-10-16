@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x186f60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x186f60" />
+  <item nodeId="node-0x186f60">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+AnyGivenPsyco
+An Interactive Fiction by Riley Kam
+Release 1 / Serial number 141016 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Example Location
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+  </item>
+</Skein>
