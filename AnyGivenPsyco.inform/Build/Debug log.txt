@@ -14,7 +14,7 @@ Reading language definition from </Users/rkam16/Downloads/Inform.app/Contents/Re
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 270 words long.
+I've now read your source text, which is 376 words long.
 
 
 -----------------------------------------------------
@@ -35,27 +35,147 @@ Phase III ... Initialise language semantics
 Phase IV ... Semantic analysis Ib
 -----------------------------------------------------
 
-Problem PM_MisalignedIndentation issued from inform7/Chapter 13/Rule Subtrees.w, line 414
 
-  >--> The phrase or rule definition 'Check spinning it to' (source text, line 19)
-    is written using the 'colon and indentation' syntax for its 'if's,
-    'repeat's and 'while's, where blocks of phrases grouped together are
-    indented one tab step inward from the 'if ...:' or similar phrase to which
-    they belong. But the tabs here seem to be misaligned, and I can't determine
-    the structure. The first phrase going awry in the definition seems to be
-    'If the noun is not Genetics door and the noun is not Cybernetics door' (source
-    text, line 20), in case that helps. This sometimes happens even when the
-    code looks about right, to the eye, if rows of spaces have been used to
-    indent phrases instead of tabs.
+
+-----------------------------------------------------
+Phase V ... Semantic analysis II
+-----------------------------------------------------
 
 
 
 -----------------------------------------------------
-Phase V ... Compilation now complete
+Phase VI ... Semantic analysis III
 -----------------------------------------------------
 
-Total of 3 files written as streams.
-CPU time: 22 centiseconds
+
+
+-----------------------------------------------------
+Phase VII ... First pass through assertions
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VIII ... Second pass through assertions
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase IX ... Making the model world
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase X ... Tables and grammar
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase XI ... Phrases and rules
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase XII ... Code generation
+-----------------------------------------------------
+
+
+
+==== Phase XII.1 ... Compiling the storage for the model world ====
+
+
+
+==== Phase XII.2 ... Compiling the tables ====
+
+
+
+==== Phase XII.3 ... Compiling the equations ====
+
+
+
+==== Phase XII.4 ... Compiling the named action patterns ====
+
+
+
+==== Phase XII.5 ... Compiling the action routines ====
+
+
+
+==== Phase XII.6 ... Compiling first block of phrases ====
+
+
+
+==== Phase XII.7 ... Compiling the rulebooks ====
+
+
+
+==== Phase XII.8 ... Compiling scene details ====
+
+
+
+==== Phase XII.9 ... CTNL ====
+
+
+
+==== Phase XII.10 ... Slashing grammar (G1) ====
+
+
+
+==== Phase XII.11 ... Determining grammar (G2) ====
+
+
+
+==== Phase XII.12 ... Compiling GPR tokens for parsing various kinds of value ====
+
+
+
+==== Phase XII.13 ... Compiling second block of phrases ====
+
+
+
+==== Phase XII.14 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.15 ... Compiling chronology ====
+
+
+
+==== Phase XII.16 ... Compiling I6 Verb directives ====
+
+
+
+==== Phase XII.17 ... Slashing grammar (G1) ====
+
+
+
+==== Phase XII.18 ... Determining grammar (G2) ====
+
+
+
+==== Phase XII.19 ... Sorting and compiling non-value grammar (G3, G4) ====
+
+
+
+==== Phase XII.20 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.21 ... Compiling routines from predicate calculus ====
+
+Providing for a total heap of 8192, given requirement of 8192
+
+
+-----------------------------------------------------
+Phase XIII ... Compilation now complete
+-----------------------------------------------------
+
+Total of 102 files written as streams.
+CPU time: 152 centiseconds
 
 
 That concludes the debugging log from this run of Inform.
