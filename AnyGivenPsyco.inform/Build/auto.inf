@@ -4392,7 +4392,7 @@ Global lightflag = false;
 ! ListWriter.i6t: Memory
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant REQUISITION_STACK_SIZE = 3*18;
+Constant REQUISITION_STACK_SIZE = 3*26;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -9575,48 +9575,49 @@ Constant p59 = vector;
 Constant p60 = room_index;
 Constant p61 = door_dir;
 Constant p62 = door_to;
-Constant p63 = absent;
-Constant p64 = cap_short_name;
-Constant p65 = mark_as_room;
-Constant p66 = mark_as_thing;
-Constant p67 = component_parent;
-Constant p68 = component_child;
-Constant p69 = component_sibling;
-Constant p70 = regional_found_in;
-Constant p71 = IK1_Count;
-Constant p72 = IK1_Link;
-Constant p73 = IK2_Count;
-Constant p74 = IK2_Link;
-Constant p75 = IK3_Count;
-Constant p76 = IK3_Link;
-Constant p77 = IK4_Count;
-Constant p78 = IK4_Link;
-Constant p79 = IK5_Count;
-Constant p80 = IK5_Link;
-Constant p81 = IK6_Count;
-Constant p82 = IK6_Link;
-Constant p83 = IK7_Count;
-Constant p84 = IK7_Link;
-Constant p85 = IK8_Count;
-Constant p86 = IK8_Link;
-Constant p87 = IK9_Count;
-Constant p88 = IK9_Link;
-Constant p89 = IK10_Count;
-Constant p90 = IK10_Link;
-Constant p91 = IK11_Count;
-Constant p92 = IK11_Link;
-Constant p93 = IK12_Count;
-Constant p94 = IK12_Link;
-Constant p95 = IK13_Count;
-Constant p96 = IK13_Link;
-Constant p97 = IK14_Count;
-Constant p98 = IK14_Link;
-Constant p99 = IK15_Count;
-Constant p100 = IK15_Link;
-Constant p101 = KD_Count;
-Constant p102 = name;
-Constant p103 = parse_name;
-Constant p104 = action_bitmap;
+Constant p63 = found_in;
+Constant p64 = absent;
+Constant p65 = cap_short_name;
+Constant p66 = mark_as_room;
+Constant p67 = mark_as_thing;
+Constant p68 = component_parent;
+Constant p69 = component_child;
+Constant p70 = component_sibling;
+Constant p71 = regional_found_in;
+Constant p72 = IK1_Count;
+Constant p73 = IK1_Link;
+Constant p74 = IK2_Count;
+Constant p75 = IK2_Link;
+Constant p76 = IK3_Count;
+Constant p77 = IK3_Link;
+Constant p78 = IK4_Count;
+Constant p79 = IK4_Link;
+Constant p80 = IK5_Count;
+Constant p81 = IK5_Link;
+Constant p82 = IK6_Count;
+Constant p83 = IK6_Link;
+Constant p84 = IK7_Count;
+Constant p85 = IK7_Link;
+Constant p86 = IK8_Count;
+Constant p87 = IK8_Link;
+Constant p88 = IK9_Count;
+Constant p89 = IK9_Link;
+Constant p90 = IK10_Count;
+Constant p91 = IK10_Link;
+Constant p92 = IK11_Count;
+Constant p93 = IK11_Link;
+Constant p94 = IK12_Count;
+Constant p95 = IK12_Link;
+Constant p96 = IK13_Count;
+Constant p97 = IK13_Link;
+Constant p98 = IK14_Count;
+Constant p99 = IK14_Link;
+Constant p100 = IK15_Count;
+Constant p101 = IK15_Link;
+Constant p102 = KD_Count;
+Constant p103 = name;
+Constant p104 = parse_name;
+Constant p105 = action_bitmap;
 
 Constant FBNA_PROP_NUMBER = p57_recurring;
 Object property_numberspace_forcer
@@ -9714,95 +9715,97 @@ Array property_metadata -->
     "<nameless>" NULL
     ! offset 165: property door_to
     "<nameless>" K4_door NULL
-    ! offset 168: property absent
+    ! offset 168: property found_in
     "<nameless>" NULL
-    ! offset 170: property cap_short_name
+    ! offset 170: property absent
     "<nameless>" NULL
-    ! offset 172: property mark_as_room
+    ! offset 172: property cap_short_name
     "<nameless>" NULL
-    ! offset 174: property mark_as_thing
+    ! offset 174: property mark_as_room
     "<nameless>" NULL
-    ! offset 176: property component_parent
+    ! offset 176: property mark_as_thing
     "<nameless>" NULL
-    ! offset 178: property component_child
+    ! offset 178: property component_parent
     "<nameless>" NULL
-    ! offset 180: property component_sibling
+    ! offset 180: property component_child
     "<nameless>" NULL
-    ! offset 182: property regional_found_in
+    ! offset 182: property component_sibling
     "<nameless>" NULL
-    ! offset 184: property IK1_Count
+    ! offset 184: property regional_found_in
     "<nameless>" NULL
-    ! offset 186: property IK1_Link
+    ! offset 186: property IK1_Count
     "<nameless>" NULL
-    ! offset 188: property IK2_Count
+    ! offset 188: property IK1_Link
     "<nameless>" NULL
-    ! offset 190: property IK2_Link
+    ! offset 190: property IK2_Count
     "<nameless>" NULL
-    ! offset 192: property IK3_Count
+    ! offset 192: property IK2_Link
     "<nameless>" NULL
-    ! offset 194: property IK3_Link
+    ! offset 194: property IK3_Count
     "<nameless>" NULL
-    ! offset 196: property IK4_Count
+    ! offset 196: property IK3_Link
     "<nameless>" NULL
-    ! offset 198: property IK4_Link
+    ! offset 198: property IK4_Count
     "<nameless>" NULL
-    ! offset 200: property IK5_Count
+    ! offset 200: property IK4_Link
     "<nameless>" NULL
-    ! offset 202: property IK5_Link
+    ! offset 202: property IK5_Count
     "<nameless>" NULL
-    ! offset 204: property IK6_Count
+    ! offset 204: property IK5_Link
     "<nameless>" NULL
-    ! offset 206: property IK6_Link
+    ! offset 206: property IK6_Count
     "<nameless>" NULL
-    ! offset 208: property IK7_Count
+    ! offset 208: property IK6_Link
     "<nameless>" NULL
-    ! offset 210: property IK7_Link
+    ! offset 210: property IK7_Count
     "<nameless>" NULL
-    ! offset 212: property IK8_Count
+    ! offset 212: property IK7_Link
     "<nameless>" NULL
-    ! offset 214: property IK8_Link
+    ! offset 214: property IK8_Count
     "<nameless>" NULL
-    ! offset 216: property IK9_Count
+    ! offset 216: property IK8_Link
     "<nameless>" NULL
-    ! offset 218: property IK9_Link
+    ! offset 218: property IK9_Count
     "<nameless>" NULL
-    ! offset 220: property IK10_Count
+    ! offset 220: property IK9_Link
     "<nameless>" NULL
-    ! offset 222: property IK10_Link
+    ! offset 222: property IK10_Count
     "<nameless>" NULL
-    ! offset 224: property IK11_Count
+    ! offset 224: property IK10_Link
     "<nameless>" NULL
-    ! offset 226: property IK11_Link
+    ! offset 226: property IK11_Count
     "<nameless>" NULL
-    ! offset 228: property IK12_Count
+    ! offset 228: property IK11_Link
     "<nameless>" NULL
-    ! offset 230: property IK12_Link
+    ! offset 230: property IK12_Count
     "<nameless>" NULL
-    ! offset 232: property IK13_Count
+    ! offset 232: property IK12_Link
     "<nameless>" NULL
-    ! offset 234: property IK13_Link
+    ! offset 234: property IK13_Count
     "<nameless>" NULL
-    ! offset 236: property IK14_Count
+    ! offset 236: property IK13_Link
     "<nameless>" NULL
-    ! offset 238: property IK14_Link
+    ! offset 238: property IK14_Count
     "<nameless>" NULL
-    ! offset 240: property IK15_Count
+    ! offset 240: property IK14_Link
     "<nameless>" NULL
-    ! offset 242: property IK15_Link
+    ! offset 242: property IK15_Count
     "<nameless>" NULL
-    ! offset 244: property KD_Count
+    ! offset 244: property IK15_Link
     "<nameless>" NULL
-    ! offset 246: property name
+    ! offset 246: property KD_Count
     "<nameless>" NULL
-    ! offset 248: property parse_name
+    ! offset 248: property name
     "<nameless>" NULL
-    ! offset 250: property action_bitmap
+    ! offset 250: property parse_name
+    "<nameless>" NULL
+    ! offset 252: property action_bitmap
     "<nameless>" NULL
 ;
 
 Constant attributed_property_offsets_SIZE 48;
 Array attributed_property_offsets --> attributed_property_offsets_SIZE;
-Constant valued_property_offsets_SIZE (100 + 105 + INDIV_PROP_START-48);
+Constant valued_property_offsets_SIZE (100 + 106 + INDIV_PROP_START-48);
 Array valued_property_offsets --> valued_property_offsets_SIZE;
 
 [ CreatePropertyOffsets 
@@ -9855,48 +9858,49 @@ Array valued_property_offsets --> valued_property_offsets_SIZE;
     valued_property_offsets-->room_index = 161;
     valued_property_offsets-->door_dir = 163;
     valued_property_offsets-->door_to = 165;
-    attributed_property_offsets-->absent = 168;
-    valued_property_offsets-->cap_short_name = 170;
-    attributed_property_offsets-->mark_as_room = 172;
-    attributed_property_offsets-->mark_as_thing = 174;
-    valued_property_offsets-->component_parent = 176;
-    valued_property_offsets-->component_child = 178;
-    valued_property_offsets-->component_sibling = 180;
-    valued_property_offsets-->regional_found_in = 182;
-    valued_property_offsets-->IK1_Count = 184;
-    valued_property_offsets-->IK1_Link = 186;
-    valued_property_offsets-->IK2_Count = 188;
-    valued_property_offsets-->IK2_Link = 190;
-    valued_property_offsets-->IK3_Count = 192;
-    valued_property_offsets-->IK3_Link = 194;
-    valued_property_offsets-->IK4_Count = 196;
-    valued_property_offsets-->IK4_Link = 198;
-    valued_property_offsets-->IK5_Count = 200;
-    valued_property_offsets-->IK5_Link = 202;
-    valued_property_offsets-->IK6_Count = 204;
-    valued_property_offsets-->IK6_Link = 206;
-    valued_property_offsets-->IK7_Count = 208;
-    valued_property_offsets-->IK7_Link = 210;
-    valued_property_offsets-->IK8_Count = 212;
-    valued_property_offsets-->IK8_Link = 214;
-    valued_property_offsets-->IK9_Count = 216;
-    valued_property_offsets-->IK9_Link = 218;
-    valued_property_offsets-->IK10_Count = 220;
-    valued_property_offsets-->IK10_Link = 222;
-    valued_property_offsets-->IK11_Count = 224;
-    valued_property_offsets-->IK11_Link = 226;
-    valued_property_offsets-->IK12_Count = 228;
-    valued_property_offsets-->IK12_Link = 230;
-    valued_property_offsets-->IK13_Count = 232;
-    valued_property_offsets-->IK13_Link = 234;
-    valued_property_offsets-->IK14_Count = 236;
-    valued_property_offsets-->IK14_Link = 238;
-    valued_property_offsets-->IK15_Count = 240;
-    valued_property_offsets-->IK15_Link = 242;
-    valued_property_offsets-->KD_Count = 244;
-    valued_property_offsets-->name = 246;
-    valued_property_offsets-->parse_name = 248;
-    valued_property_offsets-->action_bitmap = 250;
+    valued_property_offsets-->found_in = 168;
+    attributed_property_offsets-->absent = 170;
+    valued_property_offsets-->cap_short_name = 172;
+    attributed_property_offsets-->mark_as_room = 174;
+    attributed_property_offsets-->mark_as_thing = 176;
+    valued_property_offsets-->component_parent = 178;
+    valued_property_offsets-->component_child = 180;
+    valued_property_offsets-->component_sibling = 182;
+    valued_property_offsets-->regional_found_in = 184;
+    valued_property_offsets-->IK1_Count = 186;
+    valued_property_offsets-->IK1_Link = 188;
+    valued_property_offsets-->IK2_Count = 190;
+    valued_property_offsets-->IK2_Link = 192;
+    valued_property_offsets-->IK3_Count = 194;
+    valued_property_offsets-->IK3_Link = 196;
+    valued_property_offsets-->IK4_Count = 198;
+    valued_property_offsets-->IK4_Link = 200;
+    valued_property_offsets-->IK5_Count = 202;
+    valued_property_offsets-->IK5_Link = 204;
+    valued_property_offsets-->IK6_Count = 206;
+    valued_property_offsets-->IK6_Link = 208;
+    valued_property_offsets-->IK7_Count = 210;
+    valued_property_offsets-->IK7_Link = 212;
+    valued_property_offsets-->IK8_Count = 214;
+    valued_property_offsets-->IK8_Link = 216;
+    valued_property_offsets-->IK9_Count = 218;
+    valued_property_offsets-->IK9_Link = 220;
+    valued_property_offsets-->IK10_Count = 222;
+    valued_property_offsets-->IK10_Link = 224;
+    valued_property_offsets-->IK11_Count = 226;
+    valued_property_offsets-->IK11_Link = 228;
+    valued_property_offsets-->IK12_Count = 230;
+    valued_property_offsets-->IK12_Link = 232;
+    valued_property_offsets-->IK13_Count = 234;
+    valued_property_offsets-->IK13_Link = 236;
+    valued_property_offsets-->IK14_Count = 238;
+    valued_property_offsets-->IK14_Link = 240;
+    valued_property_offsets-->IK15_Count = 242;
+    valued_property_offsets-->IK15_Link = 244;
+    valued_property_offsets-->KD_Count = 246;
+    valued_property_offsets-->name = 248;
+    valued_property_offsets-->parse_name = 250;
+    valued_property_offsets-->action_bitmap = 252;
 ];
 
 
@@ -10508,7 +10512,7 @@ Array KindHierarchy --> K0_kind (0) K1_room (0) K2_thing (0) K3_direction (0) K4
 Constant IK1_First = I124_town_hall;
 Constant IK2_First = selfobj;
 Constant IK3_First = I50_north;
-Constant IK4_First = nothing;
+Constant IK4_First = I132_freezer_door;
 Constant IK5_First = nothing;
 Constant IK6_First = nothing;
 Constant IK7_First = nothing;
@@ -10535,11 +10539,14 @@ Constant DirectionObject_9 = I59_down;
 Constant DirectionObject_10 = in_obj;
 Constant DirectionObject_11 = out_obj;
 Array Map_Storage -->
- I126_water_basin 0 0 0 0 0 0 I125_community_center 0 0 0 0 ! Exits from: I124_town_hall
- 0 0 0 0 0 0 I124_town_hall 0 0 0 0 0 ! Exits from: I125_community_center
- 0 0 0 I124_town_hall 0 0 I128_wok_inn I127_rec_center 0 0 0 0 ! Exits from: I126_water_basin
- 0 0 0 0 0 0 I126_water_basin 0 0 0 0 0 ! Exits from: I127_rec_center
- 0 0 0 0 0 0 0 I126_water_basin 0 0 0 0 ! Exits from: I128_wok_inn
+ I128_water_basin 0 0 I130_wong_s_room 0 0 0 I125_community_center 0 0 0 0 ! Exits from: I124_town_hall
+ 0 0 0 I126_got_chu 0 0 I124_town_hall 0 0 0 0 0 ! Exits from: I125_community_center
+ I125_community_center 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I126_got_chu
+ 0 0 0 I124_town_hall 0 0 I131_wok_inn I129_rec_center 0 0 0 0 ! Exits from: I128_water_basin
+ 0 0 0 0 0 0 I128_water_basin 0 0 0 0 0 ! Exits from: I129_rec_center
+ I124_town_hall 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I130_wong_s_room
+ 0 0 0 0 0 0 I132_freezer_door I128_water_basin 0 0 0 0 ! Exits from: I131_wok_inn
+ 0 0 0 0 0 0 0 I132_freezer_door 0 0 0 0 ! Exits from: I133_hideout
 ;
 
 Class VPH_Class;
@@ -10991,9 +10998,9 @@ Object selfobj ""
     with cap_short_name BC_143
     has mark_as_thing
     with IK2_Count 0
-    with IK2_Link nothing
+    with IK2_Link I127_tents
     with IK8_Count 0
-    with IK8_Link nothing
+    with IK8_Link I135_if_the_player
     with KD_Count 8
     with parse_name Parse_Name_GV13
     with action_bitmap 0 0 0 0 0 
@@ -11027,7 +11034,7 @@ Object I125_community_center ""
     with room_index -1
     has mark_as_room
     with IK1_Count 1
-    with IK1_Link I126_water_basin
+    with IK1_Link I126_got_chu
     with KD_Count 1
     with name 'community' 'center' 'rooms//p' 
     with list_together BC_155
@@ -11035,7 +11042,7 @@ Object I125_community_center ""
     with article BC_157
 ;
 
-Object I126_water_basin ""
+Object I126_got_chu ""
     class K1_room
     with short_name BC_158
     with description BC_159
@@ -11043,44 +11050,207 @@ Object I126_water_basin ""
     with room_index -1
     has mark_as_room
     with IK1_Count 2
-    with IK1_Link I127_rec_center
+    with IK1_Link I128_water_basin
     with KD_Count 1
-    with name 'water' 'basin' 'rooms//p' 
+    with name 'got' 'chu' 'rooms//p' 
     with list_together BC_160
     with plural BC_161
     with article BC_162
 ;
 
-Object I127_rec_center ""
-    class K1_room
+Object I127_tents ""
+    class K2_thing
     with short_name BC_163
     with description BC_164
+    has static
+    has scenery
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 1
+    with IK2_Link I132_freezer_door
+    with KD_Count 2
+    with name 'tents' 'things//p' 
+    with action_bitmap 0 0 0 0 0 
+    with initial BC_165
+    with list_together BC_166
+    with plural BC_167
+    with article BC_168
+;
+
+Object I128_water_basin ""
+    class K1_room
+    with short_name BC_169
+    with description BC_170
     with vector 0
     with room_index -1
     has mark_as_room
     with IK1_Count 3
-    with IK1_Link I128_wok_inn
+    with IK1_Link I129_rec_center
     with KD_Count 1
-    with name 'rec' 'center' 'rooms//p' 
-    with list_together BC_165
-    with plural BC_166
-    with article BC_167
+    with name 'water' 'basin' 'rooms//p' 
+    with list_together BC_171
+    with plural BC_172
+    with article BC_173
 ;
 
-Object I128_wok_inn ""
+Object I129_rec_center ""
     class K1_room
-    with short_name BC_168
-    with description BC_169
+    with short_name BC_174
+    with description BC_175
     with vector 0
     with room_index -1
     has mark_as_room
     with IK1_Count 4
-    with IK1_Link nothing
+    with IK1_Link I130_wong_s_room
+    with KD_Count 1
+    with name 'rec' 'center' 'rooms//p' 
+    with list_together BC_176
+    with plural BC_177
+    with article BC_178
+;
+
+Object I130_wong_s_room ""
+    class K1_room
+    with short_name BC_179
+    with description BC_180
+    with vector 0
+    with room_index -1
+    has mark_as_room
+    with IK1_Count 5
+    with IK1_Link I131_wok_inn
+    with KD_Count 1
+    with name 'wong^s' 'room' 'rooms//p' 
+    with list_together BC_181
+    with plural BC_182
+    with article BC_183
+;
+
+Object I131_wok_inn ""
+    class K1_room
+    with short_name BC_184
+    with description BC_185
+    with vector 0
+    with room_index -1
+    has mark_as_room
+    with IK1_Count 6
+    with IK1_Link I133_hideout
     with KD_Count 1
     with name 'wok' 'inn' 'rooms//p' 
-    with list_together BC_170
-    with plural BC_171
-    with article BC_172
+    with list_together BC_186
+    with plural BC_187
+    with article BC_188
+;
+
+Object I132_freezer_door ""
+    class K4_door
+    with short_name BC_189
+    has concealed
+    has lockable
+    has locked
+    with vector 0
+    with door_dir [ 
+        loc ! room of actor
+        ;
+        loc = location;
+        if (loc == thedark) loc = real_location;
+        if (loc == I131_wok_inn) return I56_east; return I57_west;],
+    with door_to [ 
+        loc ! room of actor
+        ;
+        loc = location;
+        if (loc == thedark) loc = real_location;
+        if (loc == I131_wok_inn) return I133_hideout; return I131_wok_inn;],
+    with found_in I131_wok_inn I133_hideout
+    has mark_as_thing
+    with IK2_Count 2
+    with IK2_Link I135_if_the_player
+    with IK4_Count 0
+    with IK4_Link nothing
+    with KD_Count 4
+    with name 'freezer' 'door' 'doors//p' 
+    with action_bitmap 0 0 0 0 0 
+    with description BC_190
+    with initial BC_191
+    with list_together BC_192
+    with plural BC_193
+    with article BC_194
+;
+
+Object I133_hideout ""
+    class K1_room
+    with short_name BC_195
+    with description BC_196
+    with vector 0
+    with room_index -1
+    has mark_as_room
+    with IK1_Count 7
+    with IK1_Link nothing
+    with KD_Count 1
+    with name 'hideout' 'rooms//p' 
+    with list_together BC_197
+    with plural BC_198
+    with article BC_199
+;
+
+Object I135_if_the_player ""
+    class K8_person
+    with short_name BC_200
+    has proper
+    with vector 0
+    with cap_short_name BC_201
+    has mark_as_thing
+    with IK2_Count 4
+    with IK2_Link I134_rice
+    with IK8_Count 1
+    with IK8_Link nothing
+    with KD_Count 8
+    with name 'if' 'the' 'player' 'people//p' 
+    with action_bitmap 0 0 0 0 0 
+    with description BC_202
+    with initial BC_203
+    with list_together BC_204
+    with plural BC_205
+    with article BC_206
+;
+
+Object -> I134_rice ""
+    class K2_thing
+    with short_name BC_207
+    has proper
+    has ~static
+    with vector 0
+    with cap_short_name BC_208
+    has mark_as_thing
+    with IK2_Count 3
+    with IK2_Link I136_unlock_the_secret_door
+    with KD_Count 2
+    with name 'rice' 'things//p' 
+    with action_bitmap 0 0 0 0 0 
+    with description BC_209
+    with initial BC_210
+    with list_together BC_211
+    with plural BC_212
+    with article BC_213
+;
+
+Object -> I136_unlock_the_secret_door ""
+    class K2_thing
+    with short_name BC_214
+    has proper
+    has ~static
+    with vector 0
+    with cap_short_name BC_215
+    has mark_as_thing
+    with IK2_Count 5
+    with IK2_Link nothing
+    with KD_Count 2
+    with name 'unlock' 'the' 'secret' 'door' 'things//p' 
+    with action_bitmap 0 0 0 0 0 
+    with description BC_216
+    with initial BC_217
+    with list_together BC_218
+    with plural BC_219
+    with article BC_220
 ;
 
 Constant I70_english_language = 1;
@@ -11134,12 +11304,12 @@ Constant I122_masculine_gender = 2;
 Constant I123_feminine_gender = 3;
 Array Global_Vars -->
   (false) ! 7 darkness witnessed
-  (BC_173) ! 25 command prompt
+  (BC_221) ! 25 command prompt
   (I70_english_language) ! 29 language of play
-  (BC_174) ! 32 story author
-  (BC_175) ! 33 story headline
-  (BC_176) ! 34 story genre
-  (BC_177) ! 35 story description
+  (BC_222) ! 32 story author
+  (BC_223) ! 33 story headline
+  (BC_224) ! 34 story genre
+  (BC_225) ! 35 story description
   (1) ! 36 release number
   (0) ! 37 story creation year
   (0) ! 45 locale paragraph count
@@ -11154,14 +11324,14 @@ Array Global_Vars -->
 
 
 Array T0_final_question_options table  tab_0_0 tab_0_1 tab_0_2 tab_0_3 tab_0_4;
-Array tab_0_0 table $0664 0 (BC_178) (BC_179) (BC_180) (BC_181) (BC_182) ;
+Array tab_0_0 table $0664 0 (BC_226) (BC_227) (BC_228) (BC_229) (BC_230) ;
 Array tab_0_1 table $0465 1 (0) (0) (1) (0) (0) ;
 Array tab_0_2 table $2066 2 (Consult_Grammar_95) (Consult_Grammar_96) (Consult_Grammar_97) (Consult_Grammar_98) (Consult_Grammar_99) ;
 Array tab_0_3 table $0067 3 (IMMEDIATELY_RESTART_VM_R) (IMMEDIATELY_RESTORE_SAVED_R) ( TABLE_NOVALUE) (IMMEDIATELY_QUIT_R) (IMMEDIATELY_UNDO_R) ;
 Array tab_0_4 table $0068 4 ( TABLE_NOVALUE) ( TABLE_NOVALUE) (V27_amusing_a_victorious_pla) ( TABLE_NOVALUE) ( TABLE_NOVALUE) ;
 Array T1_locale_priorities table  tab_1_0 tab_1_1;
-Array tab_1_0 table $0869 NULL ( TABLE_NOVALUE)  TABLE_NOVALUE;
-Array tab_1_1 table $446a 5 ( TABLE_NOVALUE)  TABLE_NOVALUE;
+Array tab_1_0 table $0869 NULL ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_1 table $446a 5 ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array TB_Blanks -> 
   ! For table T0_final_question_options
   $00  ! Column 0
@@ -11171,7 +11341,7 @@ Array TB_Blanks ->
   $1b  ! Column 4
   
   ! For table T1_locale_priorities
-  $03  ! Column 1
+  $7f  ! Column 1
   
   ! End of table
   NULL NULL;
@@ -11904,8 +12074,8 @@ Array ActionHappened --> 0 0 0 0 0;
 ! When Play Begins:
 [ R_810 ;
     if (debug_rules) DB_Rule(R_810, 810);
-    ! [1: say ~Years of chasing the notorious criminal, Sum Ting Wong, has left you exhausted and on the verge of retiring your badge. But you have reaffirmed your resolve by remembering little Jamoca, a five year old girl who her puppy, Lucky, flattened into a carpet by Wong's get away vehicle. Now you've arrived in the slums of Callustine in hope that the criminals home town may lead you to catching the scumbag.~]
-    say__p=1;ParaContent(); print "Years of chasing the notorious criminal, Sum Ting Wong, has left you exhausted and on the verge of retiring your badge. But you have reaffirmed your resolve by remembering little Jamoca, a five year old girl who her puppy, Lucky, flattened into a carpet by Wong's get away vehicle. Now you've arrived in the slums of Callustine in hope that the criminals home town may lead you to catching the scumbag."; new_line; .L_Say1; .L_SayX1;
+    ! [1: say ~Years of chasing the notorious criminal, Sum Ting Wong, has left you exhausted and on the verge of retiring your badge. But you have reaffirmed your resolve by remembering little Jamoca, a five year old girl who had her puppy, Lucky, flattened into a carpet by Wong's get away vehicle. Now you've arrived in the slums of Callustine in hope that the criminals home town may lead you to catching the scumbag.~]
+    say__p=1;ParaContent(); print "Years of chasing the notorious criminal, Sum Ting Wong, has left you exhausted and on the verge of retiring your badge. But you have reaffirmed your resolve by remembering little Jamoca, a five year old girl who had her puppy, Lucky, flattened into a carpet by Wong's get away vehicle. Now you've arrived in the slums of Callustine in hope that the criminals home town may lead you to catching the scumbag."; new_line; .L_Say1; .L_SayX1;
     rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -19785,8 +19955,14 @@ Array ActionHappened --> 0 0 0 0 0;
 [ R_811 ;
     if (actor == player) {
     if (debug_rules) DB_Rule(R_811, 811);
-    ! [1: if the player is in wok inn , say ~The whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping.~]
-    if (((I128_wok_inn == ContainerOf(player)))) { say__p=1;ParaContent(); print "The whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping."; new_line; .L_Say291; .L_SayX291; }
+    ! [1: if the player is in wok inn , say ~The whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping. After futher inspection it seems as though the quake was not a result of the building's silly puddy suport beams or an earthquake. The room feels, different...~]
+    if (((I131_wok_inn == ContainerOf(player)))) { say__p=1;ParaContent(); print "The whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping. After futher inspection it seems as though the quake was not a result of the building's silly puddy suport beams or an earthquake. The room feels, different..."; new_line; .L_Say291; .L_SayX291; }
+    ! [2: move rice to player]
+    MoveObject(I134_rice, player, 0, false);
+    ! [3: now the freezer door is described]
+    (Adj_63_t2_v10(I132_freezer_door));
+    ! [4: now the description of the freezer door is ~Well the poorly applied wall plaster has been shooken off and revealed an iron door. The seven way voice lock seems to have open. Might wanna explore, might not. ~]
+    BlkValueCopy(GProperty(10, I132_freezer_door,description), TX_L_64);
     } else if (debug_rules > 1) DB_Rule(R_811, 811, 'actor');
     rfalse;
 ];
@@ -28213,8 +28389,8 @@ Constant SLOW_ROUTE_FINDING;
 ! Relations.i6t: Cache Control
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant NUM_DOORS = 0;
-Constant NUM_ROOMS = 5;
+Constant NUM_DOORS = 1;
+Constant NUM_ROOMS = 8;
 
 Array DoorRoutingViable -> NUM_DOORS+1;
 
@@ -28416,7 +28592,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ! Relations.i6t: Relation Route-Finding
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant MAX_ROUTE_LENGTH = 18 + 32;
+Constant MAX_ROUTE_LENGTH = 26 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
@@ -46059,7 +46235,7 @@ Array Rel_Record_67 -->
             if (Y == RLANY_CAN_GET_X or RLANY_CAN_GET_Y) rfalse;
             return DefaultValueOfKOV(10);
         } else {
-            for (Z1=nothing: false: ) {
+            for (Z1=IK4_First: Z1: Z1=Z1.IK4_Link) {
                 if (Rel_Handler_67(rr, RELS_TEST, X, Z1)) {
                     if (Y == RLANY_CAN_GET_X or RLANY_CAN_GET_Y) rtrue;
                     return Z1;
@@ -46076,7 +46252,7 @@ Array Rel_Record_67 -->
                 }
             }
         } else {
-            for (Z1=nothing: false: ) {
+            for (Z1=IK4_First: Z1: Z1=Z1.IK4_Link) {
                 if (Rel_Handler_67(rr, RELS_TEST, X, Z1)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -46086,7 +46262,7 @@ Array Rel_Record_67 -->
         RELS_LIST: LIST_OF_TY_SetLength(X, 0);
         if (Y == RLIST_ALL_X) {
             for (Z1=IK1_First: Z1: Z1=Z1.IK1_Link) {
-                for (Z3=nothing: false: ) {
+                for (Z3=IK4_First: Z3: Z3=Z3.IK4_Link) {
                     if (Rel_Handler_67(rr, RELS_TEST, Z1, Z3)) {
                         LIST_OF_TY_InsertItem(X, Z1, false, 0, true);
                     }
@@ -46094,7 +46270,7 @@ Array Rel_Record_67 -->
             }
         } else if (Y == RLIST_ALL_Y) {
             for (Z1=IK1_First: Z1: Z1=Z1.IK1_Link) {
-                for (Z3=nothing: false: ) {
+                for (Z3=IK4_First: Z3: Z3=Z3.IK4_Link) {
                     if (Rel_Handler_67(rr, RELS_TEST, Z1, Z3)) {
                         LIST_OF_TY_InsertItem(X, Z3, false, 0, true);
                     }
@@ -47670,26 +47846,38 @@ Verb 'cast'
 
 
 
-Constant TX_PS_39 = " A lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Men are rushing around the area attempting to erect a concrete foundation over the area.";
-Constant TX_PS_44 = ">";
+Constant TX_PS_43 = " This lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Concrete has long filled in this once teeming riverbed, now all thats left are some exposed drainage pipes. Some of the areas still seem to be undone, one of which has a large blue tarp covering the exposed surface. To the west is the REC center, to the east is WOK INN, to the south is the Town Hall.";
+Constant TX_PS_47 = " When it comes to living in luxary this place falls down a flight of stairs. Wong supposing lived in this smell one bedroom apartment. His bed has a red stained sheet and his dresser has clothes strung all over it. There is a barely running toliet in the corner next to a small white cabinet. To the north is the town hall.";
+Constant TX_PS_57 = ">";
 Constant TX_PS_3 = "An Interactive Fiction";
 Constant TX_PS_2 = "Any Given Psyco";
+Constant TX_PS_39 = "Apparently this town has a wierd sense of humor when it comes to naming their buildings. The dreary grocery store has some vegetables out front right next to some apples that they are selling. A small wagon seems to be bringing in some new product. There are also some tents for an outrageous price outside the store. To the north is the community center.";
 Constant TX_PS_32 = "As good-looking as ever.";
 Constant TX_PS_36 = "Community Center";
-Constant TX_PS_45 = "Fiction";
-Constant TX_PS_49 = "QUIT";
-Constant TX_PS_40 = "REC Center";
-Constant TX_PS_46 = "RESTART";
-Constant TX_PS_47 = "RESTORE a saved game";
+Constant TX_PS_58 = "Fiction";
+Constant TX_PS_38 = "Got Chu";
+Constant TX_PS_51 = "Hideout";
+Constant TX_PS_53 = "If the player";
+Constant TX_PS_62 = "QUIT";
+Constant TX_PS_44 = "REC Center";
+Constant TX_PS_59 = "RESTART";
+Constant TX_PS_60 = "RESTORE a saved game";
+Constant TX_PS_54 = "Rice";
 Constant TX_PS_4 = "Riley Kam";
-Constant TX_PS_41 = "The (REC) in REC center is not supposed to be the adjective that describes the establishment. Inside of the building a broken barbell,  treadmill and leg press are clumped together. A full length mirror trends the northern wall of the gymnasium. There is a lone equipment cage holding a couple boxes inside of it.";
+Constant TX_PS_41 = "Sort of uncharteristic of a convience store but when there is only motel and five thousand residents, it wouldn't hurt to go into relestate.";
+Constant TX_PS_45 = "The (REC) in REC center is not supposed to be the adjective that describes the establishment. Inside of the building a broken barbell,  treadmill and leg press are clumped together. A full length mirror trends the northern wall of the gymnasium. There is a lone equipment cage holding a couple boxes inside of it. To the east is the water basin.";
 Constant TX_PS_34 = "Town Hall";
-Constant TX_PS_50 = "UNDO the last command";
-Constant TX_PS_42 = "WOK INN";
-Constant TX_PS_38 = "Water Basin";
-Constant TX_PS_43 = "When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong's favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap.";
-Constant TX_PS_37 = "When push came to shove it seems like the community center didn't get the funds that it needed. It's really quite sad that this significant pillar in the community is no better than a trash collection center.";
-Constant TX_PS_35 = "While marble pillars stand firm at the front of the states main building. . It would hold the impression of a civil war building if it weren't for the Chinese fireworks blatantly sticking out of the windows.  The Community center is west and the Water Basin is North.";
+Constant TX_PS_63 = "UNDO the last command";
+Constant TX_PS_56 = "Unlock the secret door";
+Constant TX_PS_48 = "WOK INN";
+Constant TX_PS_42 = "Water Basin";
+Constant TX_PS_64 = "Well the poorly applied wall plaster has been shooken off and revealed an iron door. The seven way voice lock seems to have open. Might wanna explore, might not. ";
+Array TX_L_64 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_64;
+Constant TX_PS_52 = "When entering the dark passage you are blinded by an overwhelming light produced by 200 Gold Blocks. In the center of the room a map rest ontop of a small graphing table. There is no sign of Wong but there is a human sized safe directly across from the entrance. The way back to WOK INN is to the west.";
+Constant TX_PS_49 = "When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong's favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West.";
+Constant TX_PS_37 = "When push came to shove it seems like the community center didn't get the funds that it needed. It's really quite sad that this significant pillar in the community is no better than a trash collection center. There is a group of locals in the corner huddled around an old television. A small trashcan fire acts as the poor places heater. To the south is Got Chu. To the east is the Town Hall. ";
+Constant TX_PS_35 = "While marble pillars stand firm at the front of the states main building. . It would hold the impression of a civil war building if it weren't for the Chinese fireworks blatantly sticking out of the windows. Although its not open it seems as though a town official is waiting outside next to some crates. The Community center is west and the Water Basin is North. To the south is an Appartment complex with Wong's room.";
+Constant TX_PS_46 = "Wong's Room";
 Constant TX_PS_33 = "Yourself";
 Constant TX_PS_9 = "animals";
 Constant TX_PS_14 = "backdrops";
@@ -47699,6 +47887,7 @@ Constant TX_PS_17 = "directions";
 Constant TX_PS_10 = "doors";
 Constant TX_PS_28 = "down";
 Constant TX_PS_25 = "east";
+Constant TX_PS_50 = "freezer door";
 Constant TX_PS_29 = "inside";
 Constant TX_PS_7 = "men";
 Constant TX_PS_18 = "north";
@@ -47708,12 +47897,14 @@ Constant TX_PS_30 = "outside";
 Constant TX_PS_6 = "people";
 Constant TX_PS_13 = "player's holdalls";
 Constant TX_PS_16 = "regions";
-Constant TX_PS_48 = "see some suggestions for AMUSING things to do";
+Constant TX_PS_61 = "see some suggestions for AMUSING things to do";
 Constant TX_PS_22 = "south";
 Constant TX_PS_23 = "southeast";
 Constant TX_PS_24 = "southwest";
 Constant TX_PS_5 = "supporters";
+Constant TX_PS_40 = "tents";
 Constant TX_PS_19 = "the";
+Constant TX_PS_55 = "unlock the secret door";
 Constant TX_PS_27 = "up";
 Constant TX_PS_12 = "vehicles";
 Constant TX_PS_26 = "west";
@@ -47766,6 +47957,7 @@ Array TX_L_31 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_31;
 #ifndef room_index; Constant room_index = 0; #endif;
 #ifndef door_dir; Constant door_dir = 0; #endif;
 #ifndef door_to; Constant door_to = 0; #endif;
+#ifndef found_in; Constant found_in = 0; #endif;
 #ifndef absent; Constant absent = 0; #endif;
 #ifndef cap_short_name; Constant cap_short_name = 0; #endif;
 #ifndef mark_as_room; Constant mark_as_room = 0; #endif;
@@ -55028,21 +55220,69 @@ Array BC_164 --> PACKED_TEXT_STORAGE TX_PS_41;
 Array BC_165 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_166 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_167 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_168 --> PACKED_TEXT_STORAGE TX_PS_42;
-Array BC_169 --> PACKED_TEXT_STORAGE TX_PS_43;
-Array BC_170 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_168 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_169 --> PACKED_TEXT_STORAGE TX_PS_42;
+Array BC_170 --> PACKED_TEXT_STORAGE TX_PS_43;
 Array BC_171 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_172 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_173 --> PACKED_TEXT_STORAGE TX_PS_44;
-Array BC_174 --> PACKED_TEXT_STORAGE TX_PS_4;
-Array BC_175 --> PACKED_TEXT_STORAGE TX_PS_3;
-Array BC_176 --> PACKED_TEXT_STORAGE TX_PS_45;
+Array BC_173 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_174 --> PACKED_TEXT_STORAGE TX_PS_44;
+Array BC_175 --> PACKED_TEXT_STORAGE TX_PS_45;
+Array BC_176 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_177 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_178 --> PACKED_TEXT_STORAGE TX_PS_46;
-Array BC_179 --> PACKED_TEXT_STORAGE TX_PS_47;
-Array BC_180 --> PACKED_TEXT_STORAGE TX_PS_48;
-Array BC_181 --> PACKED_TEXT_STORAGE TX_PS_49;
-Array BC_182 --> PACKED_TEXT_STORAGE TX_PS_50;
+Array BC_178 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_179 --> PACKED_TEXT_STORAGE TX_PS_46;
+Array BC_180 --> PACKED_TEXT_STORAGE TX_PS_47;
+Array BC_181 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_182 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_183 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_184 --> PACKED_TEXT_STORAGE TX_PS_48;
+Array BC_185 --> PACKED_TEXT_STORAGE TX_PS_49;
+Array BC_186 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_187 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_188 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_189 --> PACKED_TEXT_STORAGE TX_PS_50;
+Array BC_190 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_191 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_192 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_193 --> PACKED_TEXT_STORAGE TX_PS_10;
+Array BC_194 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_195 --> PACKED_TEXT_STORAGE TX_PS_51;
+Array BC_196 --> PACKED_TEXT_STORAGE TX_PS_52;
+Array BC_197 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_198 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_199 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_200 --> PACKED_TEXT_STORAGE TX_PS_53;
+Array BC_201 --> PACKED_TEXT_STORAGE TX_PS_53;
+Array BC_202 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_203 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_204 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_205 --> PACKED_TEXT_STORAGE TX_PS_6;
+Array BC_206 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_207 --> PACKED_TEXT_STORAGE TX_PS_54;
+Array BC_208 --> PACKED_TEXT_STORAGE TX_PS_54;
+Array BC_209 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_210 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_211 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_212 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_213 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_214 --> PACKED_TEXT_STORAGE TX_PS_55;
+Array BC_215 --> PACKED_TEXT_STORAGE TX_PS_56;
+Array BC_216 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_217 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_218 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_219 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_220 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_221 --> PACKED_TEXT_STORAGE TX_PS_57;
+Array BC_222 --> PACKED_TEXT_STORAGE TX_PS_4;
+Array BC_223 --> PACKED_TEXT_STORAGE TX_PS_3;
+Array BC_224 --> PACKED_TEXT_STORAGE TX_PS_58;
+Array BC_225 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_226 --> PACKED_TEXT_STORAGE TX_PS_59;
+Array BC_227 --> PACKED_TEXT_STORAGE TX_PS_60;
+Array BC_228 --> PACKED_TEXT_STORAGE TX_PS_61;
+Array BC_229 --> PACKED_TEXT_STORAGE TX_PS_62;
+Array BC_230 --> PACKED_TEXT_STORAGE TX_PS_63;
 
 
 
