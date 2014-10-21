@@ -43,7 +43,7 @@ Global Story = BC_0;
 Constant Headline BC_1;
 Constant Story_Author BC_2;
 Release 1;
-Serial "141016";
+Serial "141020";
 
 Default Story 0;
 Default Headline 0;
@@ -4392,7 +4392,7 @@ Global lightflag = false;
 ! ListWriter.i6t: Memory
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant REQUISITION_STACK_SIZE = 3*17;
+Constant REQUISITION_STACK_SIZE = 3*18;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -10535,10 +10535,11 @@ Constant DirectionObject_9 = I59_down;
 Constant DirectionObject_10 = in_obj;
 Constant DirectionObject_11 = out_obj;
 Array Map_Storage -->
- I126_water_basin 0 0 0 0 0 0 I125_comunity_center 0 0 0 0 ! Exits from: I124_town_hall
- 0 0 0 0 0 0 I124_town_hall 0 0 0 0 0 ! Exits from: I125_comunity_center
- 0 0 0 I124_town_hall 0 0 I127_wok_inn 0 0 0 0 0 ! Exits from: I126_water_basin
- 0 0 0 0 0 0 0 I126_water_basin 0 0 0 0 ! Exits from: I127_wok_inn
+ I126_water_basin 0 0 0 0 0 0 I125_community_center 0 0 0 0 ! Exits from: I124_town_hall
+ 0 0 0 0 0 0 I124_town_hall 0 0 0 0 0 ! Exits from: I125_community_center
+ 0 0 0 I124_town_hall 0 0 I128_wok_inn I127_rec_center 0 0 0 0 ! Exits from: I126_water_basin
+ 0 0 0 0 0 0 I126_water_basin 0 0 0 0 0 ! Exits from: I127_rec_center
+ 0 0 0 0 0 0 0 I126_water_basin 0 0 0 0 ! Exits from: I128_wok_inn
 ;
 
 Class VPH_Class;
@@ -11010,7 +11011,7 @@ Object I124_town_hall ""
     with room_index -1
     has mark_as_room
     with IK1_Count 0
-    with IK1_Link I125_comunity_center
+    with IK1_Link I125_community_center
     with KD_Count 1
     with name 'town' 'hall' 'rooms//p' 
     with list_together BC_150
@@ -11018,7 +11019,7 @@ Object I124_town_hall ""
     with article BC_152
 ;
 
-Object I125_comunity_center ""
+Object I125_community_center ""
     class K1_room
     with short_name BC_153
     with description BC_154
@@ -11028,7 +11029,7 @@ Object I125_comunity_center ""
     with IK1_Count 1
     with IK1_Link I126_water_basin
     with KD_Count 1
-    with name 'comunity' 'center' 'rooms//p' 
+    with name 'community' 'center' 'rooms//p' 
     with list_together BC_155
     with plural BC_156
     with article BC_157
@@ -11042,7 +11043,7 @@ Object I126_water_basin ""
     with room_index -1
     has mark_as_room
     with IK1_Count 2
-    with IK1_Link I127_wok_inn
+    with IK1_Link I127_rec_center
     with KD_Count 1
     with name 'water' 'basin' 'rooms//p' 
     with list_together BC_160
@@ -11050,7 +11051,7 @@ Object I126_water_basin ""
     with article BC_162
 ;
 
-Object I127_wok_inn ""
+Object I127_rec_center ""
     class K1_room
     with short_name BC_163
     with description BC_164
@@ -11058,12 +11059,28 @@ Object I127_wok_inn ""
     with room_index -1
     has mark_as_room
     with IK1_Count 3
-    with IK1_Link nothing
+    with IK1_Link I128_wok_inn
     with KD_Count 1
-    with name 'wok' 'inn' 'rooms//p' 
+    with name 'rec' 'center' 'rooms//p' 
     with list_together BC_165
     with plural BC_166
     with article BC_167
+;
+
+Object I128_wok_inn ""
+    class K1_room
+    with short_name BC_168
+    with description BC_169
+    with vector 0
+    with room_index -1
+    has mark_as_room
+    with IK1_Count 4
+    with IK1_Link nothing
+    with KD_Count 1
+    with name 'wok' 'inn' 'rooms//p' 
+    with list_together BC_170
+    with plural BC_171
+    with article BC_172
 ;
 
 Constant I70_english_language = 1;
@@ -11117,12 +11134,12 @@ Constant I122_masculine_gender = 2;
 Constant I123_feminine_gender = 3;
 Array Global_Vars -->
   (false) ! 7 darkness witnessed
-  (BC_168) ! 25 command prompt
+  (BC_173) ! 25 command prompt
   (I70_english_language) ! 29 language of play
-  (BC_169) ! 32 story author
-  (BC_170) ! 33 story headline
-  (BC_171) ! 34 story genre
-  (BC_172) ! 35 story description
+  (BC_174) ! 32 story author
+  (BC_175) ! 33 story headline
+  (BC_176) ! 34 story genre
+  (BC_177) ! 35 story description
   (1) ! 36 release number
   (0) ! 37 story creation year
   (0) ! 45 locale paragraph count
@@ -11137,7 +11154,7 @@ Array Global_Vars -->
 
 
 Array T0_final_question_options table  tab_0_0 tab_0_1 tab_0_2 tab_0_3 tab_0_4;
-Array tab_0_0 table $0664 0 (BC_173) (BC_174) (BC_175) (BC_176) (BC_177) ;
+Array tab_0_0 table $0664 0 (BC_178) (BC_179) (BC_180) (BC_181) (BC_182) ;
 Array tab_0_1 table $0465 1 (0) (0) (1) (0) (0) ;
 Array tab_0_2 table $2066 2 (Consult_Grammar_95) (Consult_Grammar_96) (Consult_Grammar_97) (Consult_Grammar_98) (Consult_Grammar_99) ;
 Array tab_0_3 table $0067 3 (IMMEDIATELY_RESTART_VM_R) (IMMEDIATELY_RESTORE_SAVED_R) ( TABLE_NOVALUE) (IMMEDIATELY_QUIT_R) (IMMEDIATELY_UNDO_R) ;
@@ -11887,8 +11904,8 @@ Array ActionHappened --> 0 0 0 0 0;
 ! When Play Begins:
 [ R_810 ;
     if (debug_rules) DB_Rule(R_810, 810);
-    ! [1: say ~Years of chasing the notorious criminal, Sum Ting Wong, has left you exhasted and on the verge of retireing your badge. But you have reafirmed your resolve by remebering little Jamoca, a five year old girl who her puppy, Lucky, flatened into a carpet by Wong's get away vehicle. Now you've arrived in the slums of Callustine in hope that the criminals home town may lead you to catching the scumbag.~]
-    say__p=1;ParaContent(); print "Years of chasing the notorious criminal, Sum Ting Wong, has left you exhasted and on the verge of retireing your badge. But you have reafirmed your resolve by remebering little Jamoca, a five year old girl who her puppy, Lucky, flatened into a carpet by Wong's get away vehicle. Now you've arrived in the slums of Callustine in hope that the criminals home town may lead you to catching the scumbag."; new_line; .L_Say1; .L_SayX1;
+    ! [1: say ~Years of chasing the notorious criminal, Sum Ting Wong, has left you exhausted and on the verge of retiring your badge. But you have reaffirmed your resolve by remembering little Jamoca, a five year old girl who her puppy, Lucky, flattened into a carpet by Wong's get away vehicle. Now you've arrived in the slums of Callustine in hope that the criminals home town may lead you to catching the scumbag.~]
+    say__p=1;ParaContent(); print "Years of chasing the notorious criminal, Sum Ting Wong, has left you exhausted and on the verge of retiring your badge. But you have reaffirmed your resolve by remembering little Jamoca, a five year old girl who her puppy, Lucky, flattened into a carpet by Wong's get away vehicle. Now you've arrived in the slums of Callustine in hope that the criminals home town may lead you to catching the scumbag."; new_line; .L_Say1; .L_SayX1;
     rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -19768,8 +19785,8 @@ Array ActionHappened --> 0 0 0 0 0;
 [ R_811 ;
     if (actor == player) {
     if (debug_rules) DB_Rule(R_811, 811);
-    ! [1: if the player is in wok inn , say ~The whole restraunt shakes, bowls fall off the counters and the untensils fall to the floor. The old man in the corner remains the same, still and sleeping.~]
-    if (((I127_wok_inn == ContainerOf(player)))) { say__p=1;ParaContent(); print "The whole restraunt shakes, bowls fall off the counters and the untensils fall to the floor. The old man in the corner remains the same, still and sleeping."; new_line; .L_Say291; .L_SayX291; }
+    ! [1: if the player is in wok inn , say ~The whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping.~]
+    if (((I128_wok_inn == ContainerOf(player)))) { say__p=1;ParaContent(); print "The whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping."; new_line; .L_Say291; .L_SayX291; }
     } else if (debug_rules > 1) DB_Rule(R_811, 811, 'actor');
     rfalse;
 ];
@@ -28197,7 +28214,7 @@ Constant SLOW_ROUTE_FINDING;
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
 Constant NUM_DOORS = 0;
-Constant NUM_ROOMS = 4;
+Constant NUM_ROOMS = 5;
 
 Array DoorRoutingViable -> NUM_DOORS+1;
 
@@ -28399,7 +28416,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ! Relations.i6t: Relation Route-Finding
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant MAX_ROUTE_LENGTH = 17 + 32;
+Constant MAX_ROUTE_LENGTH = 18 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
@@ -47653,24 +47670,26 @@ Verb 'cast'
 
 
 
-Constant TX_PS_39 = " A lively part of the concrete jungle, teeming with a rich biodiversity consiting of construction workers and employees. Men are rushing around the area attempting to errect a concrete foundation over the area.";
-Constant TX_PS_42 = ">";
+Constant TX_PS_39 = " A lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Men are rushing around the area attempting to erect a concrete foundation over the area.";
+Constant TX_PS_44 = ">";
 Constant TX_PS_3 = "An Interactive Fiction";
-Constant TX_PS_2 = "AnyGivenPsyco";
+Constant TX_PS_2 = "Any Given Psyco";
 Constant TX_PS_32 = "As good-looking as ever.";
-Constant TX_PS_36 = "Comunity Center";
-Constant TX_PS_43 = "Fiction";
-Constant TX_PS_47 = "QUIT";
-Constant TX_PS_44 = "RESTART";
-Constant TX_PS_45 = "RESTORE a saved game";
+Constant TX_PS_36 = "Community Center";
+Constant TX_PS_45 = "Fiction";
+Constant TX_PS_49 = "QUIT";
+Constant TX_PS_40 = "REC Center";
+Constant TX_PS_46 = "RESTART";
+Constant TX_PS_47 = "RESTORE a saved game";
 Constant TX_PS_4 = "Riley Kam";
+Constant TX_PS_41 = "The (REC) in REC center is not supposed to be the adjective that describes the establishment. Inside of the building a broken barbell,  treadmill and leg press are clumped together. A full length mirror trends the northern wall of the gymnasium. There is a lone equipment cage holding a couple boxes inside of it.";
 Constant TX_PS_34 = "Town Hall";
-Constant TX_PS_48 = "UNDO the last command";
-Constant TX_PS_40 = "WOK INN";
+Constant TX_PS_50 = "UNDO the last command";
+Constant TX_PS_42 = "WOK INN";
 Constant TX_PS_38 = "Water Basin";
-Constant TX_PS_41 = "When it comes to play on words this old chinese restraunt is a clear winner. Supposedly this place was Wong's favorite hang out. The musky air makes this establishment almost unbearable to remain in. An old man sits in the corner with his head down, most likekly the owner of this spit trap.";
+Constant TX_PS_43 = "When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong's favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap.";
 Constant TX_PS_37 = "When push came to shove it seems like the community center didn't get the funds that it needed. It's really quite sad that this significant pillar in the community is no better than a trash collection center.";
-Constant TX_PS_35 = "While marble pillars stand firm at the front of the states main building. Flowers engulf the walls and windows of the age old building. It would hold the impression of a civil war building if it wern't for the chinese fireworks sticking out of the windows. The Community center is west and the Water Basin is North.";
+Constant TX_PS_35 = "While marble pillars stand firm at the front of the states main building. . It would hold the impression of a civil war building if it weren't for the Chinese fireworks blatantly sticking out of the windows.  The Community center is west and the Water Basin is North.";
 Constant TX_PS_33 = "Yourself";
 Constant TX_PS_9 = "animals";
 Constant TX_PS_14 = "backdrops";
@@ -47689,7 +47708,7 @@ Constant TX_PS_30 = "outside";
 Constant TX_PS_6 = "people";
 Constant TX_PS_13 = "player's holdalls";
 Constant TX_PS_16 = "regions";
-Constant TX_PS_46 = "see some suggestions for AMUSING things to do";
+Constant TX_PS_48 = "see some suggestions for AMUSING things to do";
 Constant TX_PS_22 = "south";
 Constant TX_PS_23 = "southeast";
 Constant TX_PS_24 = "southwest";
@@ -55010,15 +55029,20 @@ Array BC_165 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_166 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_167 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_168 --> PACKED_TEXT_STORAGE TX_PS_42;
-Array BC_169 --> PACKED_TEXT_STORAGE TX_PS_4;
-Array BC_170 --> PACKED_TEXT_STORAGE TX_PS_3;
-Array BC_171 --> PACKED_TEXT_STORAGE TX_PS_43;
+Array BC_169 --> PACKED_TEXT_STORAGE TX_PS_43;
+Array BC_170 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_171 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_172 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_173 --> PACKED_TEXT_STORAGE TX_PS_44;
-Array BC_174 --> PACKED_TEXT_STORAGE TX_PS_45;
-Array BC_175 --> PACKED_TEXT_STORAGE TX_PS_46;
-Array BC_176 --> PACKED_TEXT_STORAGE TX_PS_47;
-Array BC_177 --> PACKED_TEXT_STORAGE TX_PS_48;
+Array BC_174 --> PACKED_TEXT_STORAGE TX_PS_4;
+Array BC_175 --> PACKED_TEXT_STORAGE TX_PS_3;
+Array BC_176 --> PACKED_TEXT_STORAGE TX_PS_45;
+Array BC_177 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_178 --> PACKED_TEXT_STORAGE TX_PS_46;
+Array BC_179 --> PACKED_TEXT_STORAGE TX_PS_47;
+Array BC_180 --> PACKED_TEXT_STORAGE TX_PS_48;
+Array BC_181 --> PACKED_TEXT_STORAGE TX_PS_49;
+Array BC_182 --> PACKED_TEXT_STORAGE TX_PS_50;
 
 
 

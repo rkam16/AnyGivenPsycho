@@ -9,7 +9,7 @@ project folder "/Users/rkam16/GitHub/AnyGivenPsycho/AnyGivenPsyco.inform"
 
 ! Blorb instructions
 
-storyfile leafname "AnyGivenPsyco.gblorb"
+storyfile leafname "Any Given Psyco.gblorb"
 storyfile "/Users/rkam16/GitHub/AnyGivenPsycho/AnyGivenPsyco.inform/Build/output.ulx" include
 ifiction "/Users/rkam16/GitHub/AnyGivenPsycho/AnyGivenPsyco.inform/Metadata.iFiction" include
 cover "/Users/rkam16/Downloads/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
@@ -20,7 +20,7 @@ picture 1 "/Users/rkam16/Downloads/Inform.app/Contents/Resources/Internal/Miscel
 placeholder [IFID] = "5D8BAE56-DC2E-455F-B5CD-375BE2647DC2"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2014"
-placeholder [TITLE] = "AnyGivenPsyco"
+placeholder [TITLE] = "Any Given Psyco"
 placeholder [AUTHOR] = "Riley Kam"
 placeholder [BLURB] = "A work of interactive fiction."
 
