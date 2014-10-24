@@ -14,7 +14,7 @@ Reading language definition from </Users/rkam16/Downloads/Inform.app/Contents/Re
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 2616 words long.
+I've now read your source text, which is 3149 words long.
 
 
 -----------------------------------------------------
@@ -175,7 +175,7 @@ Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
 Total of 106 files written as streams.
-CPU time: 148 centiseconds
+CPU time: 156 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

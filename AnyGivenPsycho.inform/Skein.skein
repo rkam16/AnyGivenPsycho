@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x12cda360" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x2c1b30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x12cda360" />
-  <item nodeId="node-0x12cda360">
+  <activeNode nodeId="node-0x2c1b30" />
+  <item nodeId="node-0x2c1b30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -11,7 +11,7 @@ Years of chasing the notorious criminal, Sum Ting Wong, has left you exhausted a
 
 Any Given Psycho
 An Interactive Fiction by Riley Kam
-Release 1 / Serial number 141022 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141023 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Got Chu
 Apparently this town has a weird sense of humor when it comes to naming their buildings. Outside of this dreary grocery store are some fruits and vegetables. A small wagon seems to be bringing in some new product. There are also some tents for an outrageous price outside the store. To the north is the community center.
@@ -19,143 +19,75 @@ Apparently this town has a weird sense of humor when it comes to naming their bu
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="199">NO</temporary>
+    <temporary score="143">NO</temporary>
     <children>
-      <child nodeId="node-0x19cc6e00" />
-      <child nodeId="node-0x19cbca40" />
-      <child nodeId="node-0xa63e8c0" />
-      <child nodeId="node-0x12cda2f0" />
-      <child nodeId="node-0xfddc630" />
-      <child nodeId="node-0x993fc90" />
+      <child nodeId="node-0x9310d00" />
+      <child nodeId="node-0x2f1820" />
+      <child nodeId="node-0x93111d0" />
+      <child nodeId="node-0x9311390" />
+      <child nodeId="node-0x9313180" />
+      <child nodeId="node-0x9313200" />
+      <child nodeId="node-0x9310f30" />
     </children>
   </item>
-  <item nodeId="node-0x993fc90">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+  <item nodeId="node-0x9310f30">
+    <command xml:space="preserve">x vegetables</command>
+    <result xml:space="preserve"> Old and rotting, these poor excuses for human beings sit outside the store begging for spare change.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="101">YES</temporary>
+    <temporary score="174">YES</temporary>
     <children>
-      <child nodeId="node-0x9e78a50" />
+      <child nodeId="node-0x9310ec0" />
     </children>
   </item>
-  <item nodeId="node-0x9e78a50">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Water Basin
- This lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Concrete has long filled in this once teeming riverbed, now all thats left are some exposed drainage pipes. Some of the areas still seem to be undone, one of which has a large blue tarp covering the exposed surface. To the west is the REC center, to the east is WOK INN, to the south is the Town Hall.
+  <item nodeId="node-0x9310ec0">
+    <command xml:space="preserve">x fruits</command>
+    <result xml:space="preserve">These are actually edible, unlike their adjacent counterparts. But just because their edible doesn&apos;t mean you should eat them. 
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="101">YES</temporary>
+    <temporary score="174">YES</temporary>
     <children>
-      <child nodeId="node-0x12972080" />
+      <child nodeId="node-0x9310e50" />
     </children>
   </item>
-  <item nodeId="node-0x12972080">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-WOK INN
-When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong&apos;s favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West.
+  <item nodeId="node-0x9310e50">
+    <command xml:space="preserve">eat fruits</command>
+    <result xml:space="preserve">Unless you want ebola I&apos;d put that down son.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="101">YES</temporary>
+    <temporary score="174">YES</temporary>
     <children>
-      <child nodeId="node-0x12991b40" />
+      <child nodeId="node-0x9310de0" />
     </children>
   </item>
-  <item nodeId="node-0x12991b40">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+  <item nodeId="node-0x9310de0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="101">YES</temporary>
+    <temporary score="174">YES</temporary>
     <children>
-      <child nodeId="node-0x1295e300" />
+      <child nodeId="node-0x9310d70" />
     </children>
   </item>
-  <item nodeId="node-0x1295e300">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+  <item nodeId="node-0x9310d70">
+    <command xml:space="preserve">take fruits</command>
+    <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="101">YES</temporary>
-    <children>
-      <child nodeId="node-0x129c7b50" />
-    </children>
+    <temporary score="173">YES</temporary>
   </item>
-  <item nodeId="node-0x129c7b50">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">The whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping. After further inspection it seems as though the quake was not a result of the building&apos;s silly puddy support beams or an earthquake. The room feels, different...
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="101">YES</temporary>
-    <children>
-      <child nodeId="node-0xa650630" />
-    </children>
-  </item>
-  <item nodeId="node-0xa650630">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">WOK INN
-When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong&apos;s favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West.
-
-You can see a freezer door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="101">YES</temporary>
-    <children>
-      <child nodeId="node-0x12c94b90" />
-    </children>
-  </item>
-  <item nodeId="node-0x12c94b90">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the freezer door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="101">YES</temporary>
-    <children>
-      <child nodeId="node-0x12975650" />
-    </children>
-  </item>
-  <item nodeId="node-0x12975650">
-    <command xml:space="preserve">open freezer door</command>
-    <result xml:space="preserve">It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="101">YES</temporary>
-    <children>
-      <child nodeId="node-0x99f3010" />
-    </children>
-  </item>
-  <item nodeId="node-0x99f3010">
-    <command xml:space="preserve">unlock</command>
-    <result xml:space="preserve">(Rice with Rice)
-That doesn&apos;t seem to be something you can unlock.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="100">YES</temporary>
-  </item>
-  <item nodeId="node-0xfddc630">
+  <item nodeId="node-0x9313200">
     <command xml:space="preserve">RICE</command>
     <result xml:space="preserve">NOTHING HAPPENS FOO. There is a time and place for everything but apparently you don&apos;t know that.
 
@@ -164,10 +96,10 @@ That doesn&apos;t seem to be something you can unlock.
     <changed>NO</changed>
     <temporary score="157">YES</temporary>
     <children>
-      <child nodeId="node-0x999b200" />
+      <child nodeId="node-0x93130d0" />
     </children>
   </item>
-  <item nodeId="node-0x999b200">
+  <item nodeId="node-0x93130d0">
     <command xml:space="preserve">RICE</command>
     <result xml:space="preserve">NOTHING HAPPENS FOO. There is a time and place for everything but apparently you don&apos;t know that.
 
@@ -176,10 +108,10 @@ That doesn&apos;t seem to be something you can unlock.
     <changed>NO</changed>
     <temporary score="157">YES</temporary>
     <children>
-      <child nodeId="node-0x17dc9290" />
+      <child nodeId="node-0x9339950" />
     </children>
   </item>
-  <item nodeId="node-0x17dc9290">
+  <item nodeId="node-0x9339950">
     <command xml:space="preserve">RICE</command>
     <result xml:space="preserve">NOTHING HAPPENS FOO. There is a time and place for everything but apparently you don&apos;t know that.
 
@@ -188,10 +120,10 @@ That doesn&apos;t seem to be something you can unlock.
     <changed>NO</changed>
     <temporary score="157">YES</temporary>
     <children>
-      <child nodeId="node-0x19c846e0" />
+      <child nodeId="node-0x9313060" />
     </children>
   </item>
-  <item nodeId="node-0x19c846e0">
+  <item nodeId="node-0x9313060">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Water Basin
@@ -202,10 +134,10 @@ Water Basin
     <changed>NO</changed>
     <temporary score="157">YES</temporary>
     <children>
-      <child nodeId="node-0x1827bed0" />
+      <child nodeId="node-0x9312ff0" />
     </children>
   </item>
-  <item nodeId="node-0x1827bed0">
+  <item nodeId="node-0x9312ff0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 WOK INN
@@ -218,10 +150,10 @@ You can see a freezer door here.
     <changed>NO</changed>
     <temporary score="157">YES</temporary>
     <children>
-      <child nodeId="node-0x19c963a0" />
+      <child nodeId="node-0x9312f80" />
     </children>
   </item>
-  <item nodeId="node-0x19c963a0">
+  <item nodeId="node-0x9312f80">
     <command xml:space="preserve">RICE</command>
     <result xml:space="preserve">Nothing happens.
 Then all of a sudden the whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping. As the quake comes to a halt you slowly regain your senses. Something about the room feels different...
@@ -231,10 +163,10 @@ Then all of a sudden the whole restaurant shakes, bowls fall off the counters an
     <changed>NO</changed>
     <temporary score="157">YES</temporary>
     <children>
-      <child nodeId="node-0x182f6770" />
+      <child nodeId="node-0x9312f10" />
     </children>
   </item>
-  <item nodeId="node-0x182f6770">
+  <item nodeId="node-0x9312f10">
     <command xml:space="preserve">RICE</command>
     <result xml:space="preserve">Nothing happens.
 . 
@@ -243,10 +175,10 @@ Then all of a sudden the whole restaurant shakes, bowls fall off the counters an
     <changed>NO</changed>
     <temporary score="157">YES</temporary>
     <children>
-      <child nodeId="node-0x99716e0" />
+      <child nodeId="node-0x9312ea0" />
     </children>
   </item>
-  <item nodeId="node-0x99716e0">
+  <item nodeId="node-0x9312ea0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -255,10 +187,10 @@ Then all of a sudden the whole restaurant shakes, bowls fall off the counters an
     <changed>NO</changed>
     <temporary score="157">YES</temporary>
     <children>
-      <child nodeId="node-0x12921bb0" />
+      <child nodeId="node-0x9312e30" />
     </children>
   </item>
-  <item nodeId="node-0x12921bb0">
+  <item nodeId="node-0x9312e30">
     <command xml:space="preserve">r</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -267,81 +199,7 @@ Then all of a sudden the whole restaurant shakes, bowls fall off the counters an
     <changed>NO</changed>
     <temporary score="156">YES</temporary>
   </item>
-  <item nodeId="node-0x12cda2f0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0x12cac7f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x12cac7f0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Water Basin
- This lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Concrete has long filled in this once teeming riverbed, now all thats left are some exposed drainage pipes. Some of the areas still seem to be undone, one of which has a large blue tarp covering the exposed surface. To the west is the REC center, to the east is WOK INN, to the south is the Town Hall.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0x12cac840" />
-    </children>
-  </item>
-  <item nodeId="node-0x12cac840">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-WOK INN
-When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong&apos;s favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0x9904cc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x9904cc0">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">Nothing Happens.
-Then all of a sudden whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping. As the quake comes to a halt you slowly regain your senses. Something about the room feels different...
-. 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0x129e1a40" />
-    </children>
-  </item>
-  <item nodeId="node-0x129e1a40">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">Nothing Happens.
-. 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0x9918210" />
-    </children>
-  </item>
-  <item nodeId="node-0x9918210">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">Nothing Happens.
-. 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="124">YES</temporary>
-  </item>
-  <item nodeId="node-0xa63e8c0">
+  <item nodeId="node-0x9313180">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Community Center
@@ -351,86 +209,13 @@ The Trashcan Fire burns strongly in the room keeping this place warm. People als
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="198">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
     <children>
-      <child nodeId="node-0xa6b5510" />
-      <child nodeId="node-0x19c98d60" />
+      <child nodeId="node-0x9313120" />
     </children>
   </item>
-  <item nodeId="node-0x19c98d60">
-    <command xml:space="preserve">r</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="164">YES</temporary>
-    <children>
-      <child nodeId="node-0x40f3a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x40f3a0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="164">YES</temporary>
-    <children>
-      <child nodeId="node-0x19cbd1b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x19cbd1b0">
-    <command xml:space="preserve">r</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="164">YES</temporary>
-    <children>
-      <child nodeId="node-0x19d366f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x19d366f0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-WOK INN
-When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong&apos;s favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="164">YES</temporary>
-    <children>
-      <child nodeId="node-0x18267e60" />
-    </children>
-  </item>
-  <item nodeId="node-0x18267e60">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="164">YES</temporary>
-    <children>
-      <child nodeId="node-0x19d67560" />
-    </children>
-  </item>
-  <item nodeId="node-0x19d67560">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">Nothing happens.
-Then all of a sudden the whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping. As the quake comes to a halt you slowly regain your senses. Something about the room feels different...
-. 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="163">YES</temporary>
-  </item>
-  <item nodeId="node-0xa6b5510">
+  <item nodeId="node-0x9313120">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Hall
@@ -439,112 +224,165 @@ While marble pillars stand firm at the front of the states main building. . It w
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="198">YES</temporary>
+    <temporary score="143">YES</temporary>
     <children>
-      <child nodeId="node-0xa6310a0" />
-      <child nodeId="node-0xa6f9900" />
-      <child nodeId="node-0xa6b5560" />
-      <child nodeId="node-0x18268030" />
-      <child nodeId="node-0x17d942d0" />
+      <child nodeId="node-0x9311b00" />
+      <child nodeId="node-0x9311f60" />
+      <child nodeId="node-0x9312a60" />
+      <child nodeId="node-0x9312c20" />
     </children>
   </item>
-  <item nodeId="node-0x17d942d0">
-    <command xml:space="preserve">x kendamas</command>
-    <result xml:space="preserve"> A decorated version of the central America classic, Ball in Cup. Take it if you want, I don&apos;t care.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="198">YES</temporary>
-    <children>
-      <child nodeId="node-0x12aba6e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x12aba6e0">
-    <command xml:space="preserve">take kendamas</command>
-    <result xml:space="preserve">Wow, you actually tried to take them... I swear to God, just like Obama they will bring nothing but disappointment and overwhelming debt into your life.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="197">YES</temporary>
-  </item>
-  <item nodeId="node-0x18268030">
-    <command xml:space="preserve">open crates</command>
-    <result xml:space="preserve">As you pry open the wooden container you find illegal contraband worse than drugs and ill gotten human organs combined, Kendamas.
- 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="194">YES</temporary>
-    <children>
-      <child nodeId="node-0x17d79e20" />
-      <child nodeId="node-0x19cec490" />
-      <child nodeId="node-0x1188d710" />
-    </children>
-  </item>
-  <item nodeId="node-0x1188d710">
-    <command xml:space="preserve">x Kandamas</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="188">YES</temporary>
-    <children>
-      <child nodeId="node-0x19cee580" />
-    </children>
-  </item>
-  <item nodeId="node-0x19cee580">
-    <command xml:space="preserve">open crates</command>
-    <result xml:space="preserve"> As you pry open the wooden container you find illegal contraband worse than drugs and ill gotten human organs combined, Kendamas. 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="187">YES</temporary>
-  </item>
-  <item nodeId="node-0x19cec490">
-    <command xml:space="preserve">x kendamas</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="182">YES</temporary>
-  </item>
-  <item nodeId="node-0x17d79e20">
+  <item nodeId="node-0x9312c20">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="194">YES</temporary>
+    <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x19ce3660" />
+      <child nodeId="node-0x9312bb0" />
     </children>
   </item>
-  <item nodeId="node-0x19ce3660">
-    <command xml:space="preserve">x kendamas</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0x9312bb0">
+    <command xml:space="preserve">x town official</command>
+    <result xml:space="preserve"> As you look closer you can see that the man in the suit has a, Hello Ny Name Is, name tag labeled Wu Hu.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="194">YES</temporary>
+    <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x1181b430" />
+      <child nodeId="node-0x9312b40" />
     </children>
   </item>
-  <item nodeId="node-0x1181b430">
-    <command xml:space="preserve">open crates</command>
-    <result xml:space="preserve"> 
+  <item nodeId="node-0x9312b40">
+    <command xml:space="preserve">x Wu Hu</command>
+    <result xml:space="preserve">You see nothing special about Wu Hu.
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="193">YES</temporary>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x9312ad0" />
+    </children>
   </item>
-  <item nodeId="node-0xa6b5560">
+  <item nodeId="node-0x9312ad0">
+    <command xml:space="preserve">x town official</command>
+    <result xml:space="preserve">You see nothing special about Wu Hu.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="105">YES</temporary>
+  </item>
+  <item nodeId="node-0x9312a60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Wong&apos;s Room
+ When it comes to living in luxury this place falls down a flight of stairs. Wong supposing lives in this small one bedroom apartment. His bed has a red stained sheet and his dresser has clothes strung all over it. There is a barely running toilet in the corner next to a small white cabinet. To the north is the town hall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="70">YES</temporary>
+    <children>
+      <child nodeId="node-0x93129f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93129f0">
+    <command xml:space="preserve">take lighter</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="70">YES</temporary>
+    <children>
+      <child nodeId="node-0x9312980" />
+    </children>
+  </item>
+  <item nodeId="node-0x9312980">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Town Hall
+While marble pillars stand firm at the front of the states main building. . It would hold the impression of a civil war building if it weren&apos;t for the Chinese fireworks blatantly sticking out of the windows. Although its not open it seems as though a town official is waiting outside next to some crates. The Community center is west and the Water Basin is North. To the south is an Apartment complex with Wong&apos;s room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="70">YES</temporary>
+    <children>
+      <child nodeId="node-0x9312910" />
+    </children>
+  </item>
+  <item nodeId="node-0x9312910">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="70">YES</temporary>
+    <children>
+      <child nodeId="node-0x93128a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93128a0">
+    <command xml:space="preserve">light the chinese fire works with the lighter</command>
+    <result xml:space="preserve">I only understood you as far as wanting to light Chinese Fireworks.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="70">YES</temporary>
+    <children>
+      <child nodeId="node-0x9312830" />
+    </children>
+  </item>
+  <item nodeId="node-0x9312830">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a broken lighter
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="70">YES</temporary>
+    <children>
+      <child nodeId="node-0x93127c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93127c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Water Basin
+ This lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Concrete has long filled in this once teeming riverbed, now all thats left are some exposed drainage pipes. Some of the areas still seem to be undone, one of which has a large blue tarp covering the exposed surface. To the west is the REC center, to the east is WOK INN, to the south is the Town Hall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="70">YES</temporary>
+    <children>
+      <child nodeId="node-0x9312d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x9312d60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+WOK INN
+When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong&apos;s favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="70">YES</temporary>
+    <children>
+      <child nodeId="node-0x9312cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9312cb0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Water Basin
@@ -553,230 +391,127 @@ Water Basin
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0xa657a10" />
+      <child nodeId="node-0x9312d00" />
     </children>
   </item>
-  <item nodeId="node-0xa657a10">
+  <item nodeId="node-0x9312d00">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 REC Center
-The (REC) in REC center is not supposed to be the adjective that describes the establishment. Inside of the building a broken barbell,  treadmill and leg press are clumped together. A full length mirror trends the northern wall of the gymnasium. There is a lone equipment cage holding a couple boxes inside of it. To the east is the water basin.
+The (REC) in REC center is not supposed to be the adjective that describes the establishment. Inside of the building a broken barbell,  treadmill and leg press are clumped together. A full length mirror trends the northern wall of the gymnasium. There is a lone equipment cage with something stored inside. To the east is the water basin.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0xa657a60" />
+      <child nodeId="node-0x9312510" />
     </children>
   </item>
-  <item nodeId="node-0xa657a60">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Water Basin
- This lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Concrete has long filled in this once teeming riverbed, now all thats left are some exposed drainage pipes. Some of the areas still seem to be undone, one of which has a large blue tarp covering the exposed surface. To the west is the REC center, to the east is WOK INN, to the south is the Town Hall.
+  <item nodeId="node-0x9312510">
+    <command xml:space="preserve">throw barbell at cage</command>
+    <result xml:space="preserve">(first taking Barbell)
+ As you chuck the barbell at the cage the rusted door shatters and the cage opens.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0xa6f98b0" />
+      <child nodeId="node-0x93124a0" />
     </children>
   </item>
-  <item nodeId="node-0xa6f98b0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Town Hall
-While marble pillars stand firm at the front of the states main building. . It would hold the impression of a civil war building if it weren&apos;t for the Chinese fireworks blatantly sticking out of the windows. Although its not open it seems as though a town official is waiting outside next to some crates. The Community center is west and the Water Basin is North. To the south is an Appartment complex with Wong&apos;s room.
+  <item nodeId="node-0x93124a0">
+    <command xml:space="preserve">take fuel</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x12c39020" />
+      <child nodeId="node-0x9312430" />
     </children>
   </item>
-  <item nodeId="node-0x12c39020">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Community Center
-When push came to shove it seems like the community center didn&apos;t get the funds that it needed. It&apos;s really quite sad that this significant pillar in the community is no better than a trash collection center. There is a group of locals in the corner huddled around an old television. A small trashcan fire acts as the poor places heater. To the south is Got Chu. To the West is the Town Hall. 
+  <item nodeId="node-0x9312430">
+    <command xml:space="preserve">x boxes</command>
+    <result xml:space="preserve">Opening up the boxes yields exactly what your looking for. You find fuel compatible with your lighter and take it.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="79">YES</temporary>
-  </item>
-  <item nodeId="node-0xa6f9900">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="119">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0xa624740" />
+      <child nodeId="node-0x93123c0" />
     </children>
   </item>
-  <item nodeId="node-0xa624740">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">The whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping. As the quake comes to a halt you slowly regain your senses. Something about the room feels different...
-. We go on.
+  <item nodeId="node-0x93123c0">
+    <command xml:space="preserve">combine fuel with broken lighter</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="119">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x9905350" />
+      <child nodeId="node-0x9312350" />
     </children>
   </item>
-  <item nodeId="node-0x9905350">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">. We go on.
+  <item nodeId="node-0x9312350">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Fuel
+  Barbell
+  a broken lighter
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="119">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x99064a0" />
+      <child nodeId="node-0x93122e0" />
     </children>
   </item>
-  <item nodeId="node-0x99064a0">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">. We go on.
+  <item nodeId="node-0x93122e0">
+    <command xml:space="preserve">combine fuel with a broken lighter</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="119">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x997f930" />
-      <child nodeId="node-0x9998fd0" />
+      <child nodeId="node-0x9312270" />
     </children>
   </item>
-  <item nodeId="node-0x9998fd0">
-    <command xml:space="preserve">RCIE</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x9312270">
+    <command xml:space="preserve">combine broken lighter with fuel</command>
+    <result xml:space="preserve">You fill the the lighter with the fuel that you found making a now working lighter. This bad boy can light anything cigarettes to Chinese novelty items.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="118">YES</temporary>
-  </item>
-  <item nodeId="node-0x997f930">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="112">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x12a66e70" />
+      <child nodeId="node-0x9312200" />
     </children>
   </item>
-  <item nodeId="node-0x12a66e70">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="112">YES</temporary>
-    <children>
-      <child nodeId="node-0x12a41130" />
-    </children>
-  </item>
-  <item nodeId="node-0x12a41130">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="111">YES</temporary>
-  </item>
-  <item nodeId="node-0xa6310a0">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">Nothing happens Dumbass.
-Then all of a sudden the whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping. As the quake comes to a halt you slowly regain your senses. Something about the room feels different...
-. 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="137">YES</temporary>
-    <children>
-      <child nodeId="node-0xa647210" />
-      <child nodeId="node-0x996c7b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x996c7b0">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">Nothing happens Dumbass.
-. 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="137">YES</temporary>
-    <children>
-      <child nodeId="node-0x99a0a10" />
-    </children>
-  </item>
-  <item nodeId="node-0x99a0a10">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">Nothing happens Dumbass.
-. 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="137">YES</temporary>
-    <children>
-      <child nodeId="node-0xfd054e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xfd054e0">
+  <item nodeId="node-0x9312200">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="137">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x99f3670" />
+      <child nodeId="node-0x9312190" />
     </children>
   </item>
-  <item nodeId="node-0x99f3670">
+  <item nodeId="node-0x9312190">
     <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the freezer door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="137">YES</temporary>
-    <children>
-      <child nodeId="node-0x129f8880" />
-    </children>
-  </item>
-  <item nodeId="node-0x129f8880">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="137">YES</temporary>
-    <children>
-      <child nodeId="node-0x99dd1d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x99dd1d0">
-    <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Water Basin
  This lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Concrete has long filled in this once teeming riverbed, now all thats left are some exposed drainage pipes. Some of the areas still seem to be undone, one of which has a large blue tarp covering the exposed surface. To the west is the REC center, to the east is WOK INN, to the south is the Town Hall.
@@ -784,45 +519,640 @@ Water Basin
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="137">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x99715e0" />
+      <child nodeId="node-0x9312120" />
     </children>
   </item>
-  <item nodeId="node-0x99715e0">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">&gt;</result>
+  <item nodeId="node-0x9312120">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Town Hall
+While marble pillars stand firm at the front of the states main building. . It would hold the impression of a civil war building if it weren&apos;t for the Chinese fireworks blatantly sticking out of the windows. Although its not open it seems as though a town official is waiting outside next to some crates. The Community center is west and the Water Basin is North. To the south is an Apartment complex with Wong&apos;s room.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="137">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x9913520" />
+      <child nodeId="node-0x93120b0" />
     </children>
   </item>
-  <item nodeId="node-0x9913520">
-    <command xml:space="preserve">RICE</command>
-    <result xml:space="preserve">&gt;</result>
+  <item nodeId="node-0x93120b0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a lighter
+  Barbell
+  a broken lighter
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="137">YES</temporary>
+    <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x129f9bf0" />
+      <child nodeId="node-0x9312040" />
     </children>
   </item>
-  <item nodeId="node-0x129f9bf0">
+  <item nodeId="node-0x9312040">
+    <command xml:space="preserve">light the chinese fire works with the lighter</command>
+    <result xml:space="preserve">I only understood you as far as wanting to light Chinese Fireworks.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="70">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311fd0">
+    <command xml:space="preserve">light the chinese fireworks with the lighter</command>
+    <result xml:space="preserve">You look at Wu Hu and bring the lighter close to the fireworks fuse. He desperately yells not to and says he will tell you what you want to do as long as you don&apos;t blow up his merchandise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+  </item>
+  <item nodeId="node-0x9311f60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Water Basin
+ This lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Concrete has long filled in this once teeming riverbed, now all thats left are some exposed drainage pipes. Some of the areas still seem to be undone, one of which has a large blue tarp covering the exposed surface. To the west is the REC center, to the east is WOK INN, to the south is the Town Hall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311d30" />
+      <child nodeId="node-0x9312640" />
+      <child nodeId="node-0x9311ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311ef0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 WOK INN
 When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong&apos;s favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West.
 
-You can see a freezer door here.
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311e80" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311e80">
+    <command xml:space="preserve">rice</command>
+    <result xml:space="preserve">Nothing happens.
+Then all of a sudden the whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping. As the quake comes to a halt you slowly regain your senses. Something about the room feels different...
+. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311e10" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311e10">
+    <command xml:space="preserve">rice</command>
+    <result xml:space="preserve">Nothing happens.
+. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0x9312560" />
+    </children>
+  </item>
+  <item nodeId="node-0x9312560">
+    <command xml:space="preserve">rice</command>
+    <result xml:space="preserve">Nothing happens.
+. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0x93125d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93125d0">
+    <command xml:space="preserve">rice</command>
+    <result xml:space="preserve">Nothing happens.
+. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="99">YES</temporary>
+  </item>
+  <item nodeId="node-0x9312640">
+    <command xml:space="preserve">look under tarp</command>
+    <result xml:space="preserve">You find nothing of interest.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="136">YES</temporary>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x93126b0" />
+    </children>
   </item>
-  <item nodeId="node-0xa647210">
+  <item nodeId="node-0x93126b0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x9312720" />
+    </children>
+  </item>
+  <item nodeId="node-0x9312720">
+    <command xml:space="preserve">look under tarp</command>
+    <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311da0">
+    <command xml:space="preserve">look under the Tarp</command>
+    <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="76">YES</temporary>
+  </item>
+  <item nodeId="node-0x9311d30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+REC Center
+The (REC) in REC center is not supposed to be the adjective that describes the establishment. Inside of the building a broken barbell,  treadmill and leg press are clumped together. A full length mirror trends the northern wall of the gymnasium. There is a lone equipment cage with something stored inside. To the east is the water basin.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311be0" />
+      <child nodeId="node-0x9311cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311cc0">
+    <command xml:space="preserve">throw barbell at equipment cage</command>
+    <result xml:space="preserve">(first taking Barbell)
+ As you chuck the barbell at the cage the rusted door shatters and the cage opens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311c50">
+    <command xml:space="preserve">open cage</command>
+    <result xml:space="preserve">As you enter the cage you can see that there are some boxes inside
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="44">YES</temporary>
+  </item>
+  <item nodeId="node-0x9311be0">
+    <command xml:space="preserve">x boxes</command>
+    <result xml:space="preserve">Opening up the boxes yields exactly what your looking for. You find fuel compatible with your lighter and take it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311b70">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Fuel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+  </item>
+  <item nodeId="node-0x9311b00">
+    <command xml:space="preserve">x town official</command>
+    <result xml:space="preserve"> As you look closer you can see that the man in the suit has a, Hello Ny Name Is, name tag labeled Wu Hu.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311400" />
+      <child nodeId="node-0x9311630" />
+      <child nodeId="node-0x9311a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311a90">
+    <command xml:space="preserve">ask Wu Hu about Sum Ting Wong</command>
+    <result xml:space="preserve">Wu responds sternly saying &quot;I don&apos;t want to play games. I&apos;ll tell you about Wong if you dispose of these papers for me.&quot; He hands you some papers.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311a20">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Illicit files
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x93119b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93119b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Community Center
+When push came to shove it seems like the community center didn&apos;t get the funds that it needed. It&apos;s really quite sad that this significant pillar in the community is no better than a trash collection center. There is a group of locals in the corner huddled around an old television. A small trashcan fire acts as the poor places heater. To the south is Got Chu. To the east is the Town Hall. 
+
+The Trashcan Fire burns strongly in the room keeping this place warm. People also insert things into the fire to dispose of them. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311940" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311940">
+    <command xml:space="preserve">Insert illicit files into trashcan fire</command>
+    <result xml:space="preserve">Bird
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x93118d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93118d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311860" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311860">
+    <command xml:space="preserve">insert illicit files into the trashcan fire</command>
+    <result xml:space="preserve">Bird
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x93117f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93117f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311780" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311780">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311710" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311710">
+    <command xml:space="preserve">insert illicit files into the fire</command>
+    <result xml:space="preserve">Bird
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x93116a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93116a0">
+    <command xml:space="preserve">Insert illicit files into the fire</command>
+    <result xml:space="preserve">Bird
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="142">YES</temporary>
+  </item>
+  <item nodeId="node-0x9311630">
+    <command xml:space="preserve">ask wu hu about sum ting wong</command>
+    <result xml:space="preserve">Wu responds sternly saying &quot;I don&apos;t want to play games. I&apos;ll tell you about Wong if you dispose of these papers for me.&quot; He hands you some papers.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="118">YES</temporary>
+    <children>
+      <child nodeId="node-0x93115c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93115c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Illicit files
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="118">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311550" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311550">
+    <command xml:space="preserve">x files</command>
+    <result xml:space="preserve">Why are you examining these they probably contain information that can get you killed. Well I guess a quick peak wouldn&apos;t hurt, lets see what we have...... grandmas shouldn&apos;t wear bikini&apos;s.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="118">YES</temporary>
+    <children>
+      <child nodeId="node-0x93114e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93114e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="118">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311470" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311470">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Community Center
+When push came to shove it seems like the community center didn&apos;t get the funds that it needed. It&apos;s really quite sad that this significant pillar in the community is no better than a trash collection center. There is a group of locals in the corner huddled around an old television. A small trashcan fire acts as the poor places heater. To the south is Got Chu. To the east is the Town Hall. 
+
+The Trashcan Fire burns strongly in the room keeping this place warm. People also insert things into the fire to dispose of them. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+  </item>
+  <item nodeId="node-0x9311400">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Town Hall
+While marble pillars stand firm at the front of the states main building. . It would hold the impression of a civil war building if it weren&apos;t for the Chinese fireworks blatantly sticking out of the windows. Although its not open it seems as though a town official is waiting outside next to some crates. The Community center is west and the Water Basin is North. To the south is an Apartment complex with Wong&apos;s room.
+
+You can see Wu Hu here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="109">YES</temporary>
+  </item>
+  <item nodeId="node-0x9311390">
+    <command xml:space="preserve">take vegetables</command>
+    <result xml:space="preserve"> Brah, no can carry people. Besides do you want to give the homeless a piggy bank.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="169">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311240" />
+      <child nodeId="node-0x9311320" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311320">
+    <command xml:space="preserve">x vegetables</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x93112b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93112b0">
+    <command xml:space="preserve">x fruits</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="166">YES</temporary>
+  </item>
+  <item nodeId="node-0x9311240">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="168">YES</temporary>
+  </item>
+  <item nodeId="node-0x93111d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311160" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311160">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Water Basin
+ This lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Concrete has long filled in this once teeming riverbed, now all thats left are some exposed drainage pipes. Some of the areas still seem to be undone, one of which has a large blue tarp covering the exposed surface. To the west is the REC center, to the east is WOK INN, to the south is the Town Hall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x93110f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93110f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+WOK INN
+When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong&apos;s favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311080" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311080">
+    <command xml:space="preserve">RICE</command>
+    <result xml:space="preserve">Nothing Happens.
+Then all of a sudden whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping. As the quake comes to a halt you slowly regain your senses. Something about the room feels different...
+. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x9311010" />
+    </children>
+  </item>
+  <item nodeId="node-0x9311010">
+    <command xml:space="preserve">RICE</command>
+    <result xml:space="preserve">Nothing Happens.
+. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x9310fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9310fa0">
+    <command xml:space="preserve">RICE</command>
+    <result xml:space="preserve">Nothing Happens.
+. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="124">YES</temporary>
+  </item>
+  <item nodeId="node-0x2f1820">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x2f1870" />
+    </children>
+  </item>
+  <item nodeId="node-0x2f1870">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Water Basin
+ This lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Concrete has long filled in this once teeming riverbed, now all thats left are some exposed drainage pipes. Some of the areas still seem to be undone, one of which has a large blue tarp covering the exposed surface. To the west is the REC center, to the east is WOK INN, to the south is the Town Hall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a8bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a8bd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+WOK INN
+When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong&apos;s favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a8c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a8c20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x9339890" />
+    </children>
+  </item>
+  <item nodeId="node-0x9339890">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x93398e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93398e0">
+    <command xml:space="preserve">RICE</command>
+    <result xml:space="preserve">The whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping. After further inspection it seems as though the quake was not a result of the building&apos;s silly puddy support beams or an earthquake. The room feels, different...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x9313360" />
+    </children>
+  </item>
+  <item nodeId="node-0x9313360">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">WOK INN
 When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong&apos;s favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West.
@@ -832,12 +1162,12 @@ You can see a freezer door here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="91">YES</temporary>
+    <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x99c2530" />
+      <child nodeId="node-0x9313310" />
     </children>
   </item>
-  <item nodeId="node-0x99c2530">
+  <item nodeId="node-0x9313310">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening the freezer door)
 It seems to be locked.
@@ -845,106 +1175,229 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="90">YES</temporary>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x93132c0" />
+    </children>
   </item>
-  <item nodeId="node-0x19cbca40">
-    <command xml:space="preserve">x vegetables</command>
-    <result xml:space="preserve"> Old and rotting, these poor excuses for human beings sit outside the store begging for spare change.
+  <item nodeId="node-0x93132c0">
+    <command xml:space="preserve">open freezer door</command>
+    <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="174">YES</temporary>
+    <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x19cc7580" />
+      <child nodeId="node-0x9313270" />
     </children>
   </item>
-  <item nodeId="node-0x19cc7580">
-    <command xml:space="preserve">x fruits</command>
-    <result xml:space="preserve">These are actually edible, unlike their adjacent counterparts. But just because their edible doesn&apos;t mean you should eat them. 
+  <item nodeId="node-0x9313270">
+    <command xml:space="preserve">unlock</command>
+    <result xml:space="preserve">(Rice with Rice)
+That doesn&apos;t seem to be something you can unlock.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="174">YES</temporary>
+    <temporary score="100">YES</temporary>
+  </item>
+  <item nodeId="node-0x9310d00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
     <children>
-      <child nodeId="node-0x19cbcb50" />
+      <child nodeId="node-0x9310c90" />
     </children>
   </item>
-  <item nodeId="node-0x19cbcb50">
-    <command xml:space="preserve">eat fruits</command>
-    <result xml:space="preserve">Unless you want ebola I&apos;d put that down son.
+  <item nodeId="node-0x9310c90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Community Center
+When push came to shove it seems like the community center didn&apos;t get the funds that it needed. It&apos;s really quite sad that this significant pillar in the community is no better than a trash collection center. There is a group of locals in the corner huddled around an old television. A small trashcan fire acts as the poor places heater. To the south is Got Chu. To the east is the Town Hall. 
+
+The Trashcan Fire burns strongly in the room keeping this place warm. People also insert things into the fire to dispose of them. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x9310c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x9310c20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Town Hall
+While marble pillars stand firm at the front of the states main building. . It would hold the impression of a civil war building if it weren&apos;t for the Chinese fireworks blatantly sticking out of the windows. Although its not open it seems as though a town official is waiting outside next to some crates. The Community center is west and the Water Basin is North. To the south is an Apartment complex with Wong&apos;s room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x9310bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9310bb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Water Basin
+ This lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Concrete has long filled in this once teeming riverbed, now all thats left are some exposed drainage pipes. Some of the areas still seem to be undone, one of which has a large blue tarp covering the exposed surface. To the west is the REC center, to the east is WOK INN, to the south is the Town Hall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x9310b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x9310b40">
+    <command xml:space="preserve">look under tarp</command>
+    <result xml:space="preserve">As you peak under the tarp you notice something sticking out from underneath the material. You reach in and pocket the item.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="174">YES</temporary>
+    <temporary score="92">YES</temporary>
     <children>
-      <child nodeId="node-0x19d59f00" />
+      <child nodeId="node-0x9310ad0" />
     </children>
   </item>
-  <item nodeId="node-0x19d59f00">
+  <item nodeId="node-0x9310ad0">
     <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.
+    <result xml:space="preserve">You are carrying:
+  a Pearl
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="174">YES</temporary>
+    <temporary score="92">YES</temporary>
     <children>
-      <child nodeId="node-0x1822ec80" />
+      <child nodeId="node-0x9310a60" />
     </children>
   </item>
-  <item nodeId="node-0x1822ec80">
-    <command xml:space="preserve">take fruits</command>
-    <result xml:space="preserve">Taken.
+  <item nodeId="node-0x9310a60">
+    <command xml:space="preserve">x pearl</command>
+    <result xml:space="preserve"> When looking closely at this pricey pebble you notice the letters STW on the face of the pearl.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="173">YES</temporary>
-  </item>
-  <item nodeId="node-0x19cc6e00">
-    <command xml:space="preserve">take vegetables</command>
-    <result xml:space="preserve"> Brah, no can carry people. Besides do you want to give the homeless a piggy bank.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="169">YES</temporary>
+    <temporary score="92">YES</temporary>
     <children>
-      <child nodeId="node-0x19d7c460" />
-      <child nodeId="node-0x18235230" />
+      <child nodeId="node-0x93109f0" />
     </children>
   </item>
-  <item nodeId="node-0x18235230">
-    <command xml:space="preserve">x vegetables</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0x93109f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+WOK INN
+When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong&apos;s favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="167">YES</temporary>
+    <temporary score="92">YES</temporary>
     <children>
-      <child nodeId="node-0x19d602b0" />
+      <child nodeId="node-0x9310980" />
     </children>
   </item>
-  <item nodeId="node-0x19d602b0">
-    <command xml:space="preserve">x fruits</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
+  <item nodeId="node-0x9310980">
+    <command xml:space="preserve">RICE</command>
+    <result xml:space="preserve">Nothing happens.
+Then all of a sudden the whole restaurant shakes, bowls fall off the counters and the utensils fall to the floor. The old man in the corner remains the same, still and sleeping. As the quake comes to a halt you slowly regain your senses. Something about the room feels different...
+. 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="166">YES</temporary>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x9310910" />
+    </children>
   </item>
-  <item nodeId="node-0x19d7c460">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.
+  <item nodeId="node-0x9310910">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">WOK INN
+When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong&apos;s favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West.
+
+You can see a freezer door here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="168">YES</temporary>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x93108a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93108a0">
+    <command xml:space="preserve">x freezer door</command>
+    <result xml:space="preserve">Well the poorly applied wall plaster has been shaken off and revealed a secret iron door. The door seems to have a key hole shaped like a small circle. You  might wanna see what you got kiddo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x9310830" />
+    </children>
+  </item>
+  <item nodeId="node-0x9310830">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the freezer door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x93107c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93107c0">
+    <command xml:space="preserve">use pearl to unlock door</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x9310750" />
+    </children>
+  </item>
+  <item nodeId="node-0x9310750">
+    <command xml:space="preserve">open freezer door with pearl</command>
+    <result xml:space="preserve">You unlock the freezer door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x93106e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93106e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the freezer door)
+
+Hideout
+When entering the dark passage you are blinded by an overwhelming light produced by 200 Gold Blocks. In the center of the room a map rest on top of a small graphing table. There is no sign of Wong but there is a human sized safe directly across from the entrance. The way back to WOK INN is to the west.
+
+You can see a freezer door and a Safe (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
   </item>
 </Skein>
