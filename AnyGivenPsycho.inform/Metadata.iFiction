@@ -7,10 +7,11 @@
         </identification>
         <bibliographic>
             <title>Any Given Psycho</title>
-            <author>Riley Kam</author>
-            <headline>An Interactive Fiction</headline>
-            <genre>Fiction</genre>
+            <author>Riley Kam The release number is 1</author>
+            <headline>One Wong Turn</headline>
+            <genre>Adventure</genre>
             <firstpublished>2014</firstpublished>
+            <description>A comedic, yet dramatic story that entails a obsessed detective chasing down a criminal. He will find out what he holds most precious and what he is willing to sacrifice to obtain his desired goals. Cover Art by Riley Kam</description>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>

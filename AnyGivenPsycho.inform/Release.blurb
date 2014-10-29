@@ -21,8 +21,8 @@ placeholder [IFID] = "5D8BAE56-DC2E-455F-B5CD-375BE2647DC2"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2014"
 placeholder [TITLE] = "Any Given Psycho"
-placeholder [AUTHOR] = "Riley Kam"
-placeholder [BLURB] = "A work of interactive fiction."
+placeholder [AUTHOR] = "Riley Kam The release number is 1"
+placeholder [BLURB] = "A comedic, yet dramatic story that entails a obsessed detective chasing down a criminal. He will find out what he holds most precious and what he is willing to sacrifice to obtain his desired goals. Cover Art by Riley Kam"
 
 ! Other material to release
 
