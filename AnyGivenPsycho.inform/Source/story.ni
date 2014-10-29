@@ -1,6 +1,10 @@
 "Any Given Psycho" by Riley Kam
 
-Use Scoring.
+[Code to disable take all from Ragnarok by Marissa Takebayashi]
+Rule for deciding whether all includes something: it does not.
+[Code for snide remark after take all from A Day for Spelling by Mary Kiang]
+Rule for printing a parser error when the latest parser error is the nothing to do error: say "That would make things to easy, try to have some fun :)" instead.
+
 
 When Play Begins: say "Years of chasing the notorious criminal, Sum Ting Wong, has left you exhausted and on the verge of retiring your badge. But you have reaffirmed your resolve by remembering little Jamoca, a five year old girl who had her puppy, Lucky, flattened into a carpet by Wong's get away vehicle. Now you've arrived in the slums of Callustine in hope that some clues in the criminal's home town may lead you to catching the scumbag." 
 
@@ -8,7 +12,7 @@ The Got Chu is a room. It is south of the Community Center. The description is "
 
 The fruits are edible. It is in Got Chu. The fruits are a thing. It is undescribed. The description is "These are actually edible, unlike their adjacent counterparts. But just because their edible doesn't mean you should eat . " 
 
-The wagon is scenery in Got Chu. The description is " When taking a peak inside of the wagon you see that it is filled with a couple dozen bags of rice. Probably the staple food of the towns people"
+The wagon is scenery in Got Chu. The description is " When taking a peek inside of the wagon you see that it is filled with a couple dozen bags of rice. Probably the staple food of the towns people"
 
 Instead of eating fruits, say "Unless you want ebola I'd put that down son."
 
@@ -18,7 +22,7 @@ Instead of taking vegetables, say " Brah, no can carry people. Besides do you wa
 
 The tents is scenery. The description is "Sort of uncharacteristic of a connivence store but when there is only motel and five thousand residents, it wouldn't hurt to go into real-estate."
 
-The Town Hall is a room. The description is "While marble pillars stand firm at the front of the states main building. . It would hold the impression of a civil war building if it weren't for the Chinese fireworks blatantly sticking out of the windows. Although its not open it seems as though a town official is waiting outside next to some crates. The Community center is west and the Water Basin is North. To the south is an Apartment complex with Wong's room."
+The Town Hall is a room. The description is "While marble pillars stand firm at the front of the states main building. . It would hold the impression of a civil war building if it weren't for the Chinese fireworks blatantly sticking out of the windows. Although its not open it seems as though a suspicious town official is waiting outside next to some crates. The Community center is west and the Water Basin is North. To the south is an Apartment complex with Wong's room."
 
 Mood is a kind of value. The moods are unhappy, scared and pleased. People have mood. The mood of town official is unhappy.
 
@@ -27,8 +31,8 @@ Understand "Wu Hu" as Town Official
 Instead of examining the Town Official for the first time:
 	now the printed name of the town official is "Wu Hu";
 	now the town official is proper-named;
-	say " As you look closer you can see that the man in the suit has a, Hello Ny Name Is, name tag labeled Wu Hu.";
-	now the description of the town official is " A Chinese business man who knows his way around this town and its citizens. Probably can supply you with anything as long as your willing to pay. ";
+	say " As you look closer you can see that the man in the suit has a, Hello My Name Is, name tag labeled Wu Hu. Wait, you've heard that name before, this is Wong's information broker, her probably knows all about Wong. Nows the time to get some answers about Wong";
+	now the description of the town official is " A Chinese business man who knows his way around this town and its citizens. Probably can supply you with information on his old buddy Wong. ";
 	now the Town Official is described
 
 Instead of asking the town official about "Sum Ting Wong":
@@ -44,16 +48,19 @@ Illicit files is a thing. The description is "Why are you examining these they p
 
 There is a man called Town Official. He is in the Town Hall. Town Official is undescribed.
 
-Chinese Fireworks is a thing in the Town Hall. It is undescribed. The description is "These illegal 10 foot dragon fire crackers could probably level the whole residential area. Probably wouldn't be a good idea to set these off." 
+Chinese Fireworks is a thing in the Town Hall. It is not portable. It is undescribed. The description is "These illegal 10 foot dragon fire crackers could probably level the whole residential area. Probably wouldn't be a good idea to set these off." 
+
+Instead of taking Chinese Fireworks, say " Do you really want to carry as 40 pound dragon shaped bomb on your back."
 
 Lighting is an action applying to two things.
 Understand "Light the [something] with the [lighter]" as lighting.
 
+[If you try to light the fireworks before having the lighter the game will give a random description saying "This dangerous act would achieve nothing" I was unable to find out a way to change this description since I already programed in a lighting command and description. Its a fluke that I cannot fix and which invokes my deepest condolences to the player who it messes up.]
 Instead of lighting the Chinese Fireworks:
 now town official is scared;
  say "You look at Wu Hu and bring the lighter close to the fireworks fuse. He desperately yells not to and says he will tell you what you want to do as long as you don't blow up his merchandise."
 
-The crates are containers in the Town Hall. It is a closed openable container. It is undescribed. The description is " These stand issue crates that are definitely not carrying drugs or illegal contraband are definitely not worth opening, or are they..."
+The crates are containers in the Town Hall. It is not portable. It is a closed openable container. It is undescribed. The description is " These stand issue crates that are definitely not carrying happy pills or illegal contraband are definitely not worth opening, or are they..."
 
 Instead of opening crates, say "[first time]As you pry open the wooden container you find illegal contraband worse than drugs and ill gotten human organs combined, Kendamas.[only] "
 
@@ -67,18 +74,29 @@ Locals is scenery in the Community Center. The description is " A group of hoodl
 
 Television is scenery in the community center. The description is " This old cable TV could be dropped out of an airplane and deal the same damage as an atomic bomb. Right now the hoodlums are guarding this machine, honestly there is no point in using it since its so old."
 
-Trashcan Fire is a thing in the community center. It is undescribed. It is a container. "The Trashcan Fire burns strongly in the room keeping this place warm. People also insert things into the fire to dispose of them. "
+Trashcan Fire is a thing in the community center. It is undescribed. It is not portable. It is a container. The description is "The Trashcan Fire burns strongly in the room keeping this place warm. People also insert things into the fire to dispose of them. "
 
-Understand "Fire" as Trashcan Fire.
+Understand "fire" and "trashcan" as Trashcan Fire.
 
 After inserting something into the Trashcan Fire:
 	now the noun is nowhere;
-	say "The flames of hoodlum hell engulf [the noun]."
+	say "The flames of Hoodlum Hell engulf [the noun]."
 	
 Instead of inserting illicit files into the trashcan fire:
 	now the town official is pleased;
 	say "As you watch the dreadful picture go up in flames your can feel Wu Hu's satisfaction back at the town hall. You should probably go ask him about Wong again.  "
+
+Instead of inserting broken lighter into the trashcan fire:
+	say "Brah you trolling. Don't you kind of need this for a later date. Seriously man, you might as well cut off your hand and bake it over the fire.";
+	move the broken lighter to the player
 	
+Instead of inserting  lighter into the trashcan fire:
+	say "Brah you trolling. Don't you kind of need this for a later date. Seriously man, you might as well cut off your hand and bake it over the fire.";
+	move the lighter to the player
+	
+Instead of inserting fuel into the trashcan fire:
+	end the story saying "This would create a bomb. One that would kill you and end you adventure. Well why not? BOOOOOOOOOOOOOOOOM. That enough O's for you. Well now you have an O floating over your head. Buddy your dead as Win Dixie, too bad, you almost had Wong." 
+
 The Water Basin is a room. It is north of the town hall. The description is " This lively part of the concrete jungle, teeming with a rich biodiversity consisting of construction workers and employees. Concrete has long filled in this once teeming riverbed, now all thats left are some exposed drainage pipes. Some of the areas still seem to be undone, one of which has a large blue tarp covering the exposed surface. To the west is the REC center, to the east is WOK INN, to the south is the Town Hall."
 
 Drainage Pipes is scenery in the Water Basin. The description is "Once upon a time this city had great utilities such as ventilation, electricity and water. However, after years of neglect many of these utilities failed, this is a remnant of such an era."
@@ -109,9 +127,12 @@ Instead of examining boxes:
 	move fuel to player;
 	say "Opening up the boxes yields exactly what your looking for. You find fuel compatible with your lighter and take it."
 	
-Fuel is a thing. The description is "Standard issue fuel."
+fuel is a thing. The description is "Standard issue fuel."
 
 Barbell is a thing in the REC Center. It is undescribed. The description is " A broken barbell that has seen better days. It's still extremely heavy and dangerous weighing in at 150lbs."
+
+Instead of taking barbell:
+	say "This barbell is extremely heavy but being the big boy you are you are able to lift and carry it. Thanks T-25 Workout."
 
 Treadmill is scenery in the REC Center. The description is " You remember running on one of these with your dog. One day you slipped and... Rest in Peace Butch."
  
@@ -136,17 +157,17 @@ Sticky note is scenery in Wong's Room. The description is " The Sticky Note Read
 The lighter is a thing.
 
 Combining it with is an action applying to two things.
-Understand "combine [broken lighter] with [Fuel]" as combining it with.
+Understand "combine [broken lighter] with [fuel]" as combining it with.
 Understand "combine [fuel] with [broken lighter]" as combining it with.
 
-Instead of combining broken lighter with Fuel:
+Instead of combining broken lighter with fuel:
 	say "You fill the the lighter with the fuel that you found making a now working lighter. This bad boy can light anything cigarettes to Chinese novelty items.";
 	remove Fuel from play;
 	remove broken lighter from play;
 	move lighter to player;
 	now the description of the lighter is "  Wong has a bad habit of smoking and this diamond encrusted lighter helps fuel his addiction. Too bad it has no fuel. Don't smoke kids, lung cancer doesn't make you cool. Neither do drugs or Kendamas"
 	
-The broken lighter is a thing in Wong's Room. It is undescribed. The description is " Wong has a bad habit of smoking and this diamond encrusted lighter helps fuel his addiction. Too bad it has no fuel. Don't smoke kids, lung cancer doesn't make you cool. Neither do drugs or Kendamas."
+The broken lighter is a thing in Wong's Room. It is undescribed. The description is " Wong has a bad habit of smoking and this diamond encrusted lighter helps fuel his addiction. Too bad it has no fuel. Don't smoke kids, lung cancer doesn't make you cool. Neither do Kendamas."
 
 The WOK INN is a room. It is east of the Water Basin. It is west of the freezer door. The description is "When it comes to play on words this old Chinese restaurant is a clear winner. Supposedly this place was Wong's favorite hang out but has clearly fallen out of grace. Dilapidated tables can barely hold the teacups, chopsticks and plates that rest on them. An old man sits in the corner with his head down, most likely the owner of this spit trap. The Water Basin is West."
 
@@ -182,7 +203,7 @@ Check casting RICE:
 	If the player is not in WOK INN, say "NOTHING HAPPENS FOO. There is a time and place for everything but apparently you don't know that.";
 	
 Instead of examining the Safe:
-	end the story saying "As you creep up upon the safe the door swings open. Surprise Surprise Wong isn't here and the safe is bare except for a small note left inside. You reach down to pick it up and begin reading 'Behind you!'. Right as you finish reading you turn around to see the old man who owns the restaurant. He holds a cynical smile as he removes his scraggy beard and fake teeth. It's Wong!!! Slowly he closes the door and locks it from the outside. You see the ceiling lights slowly fade as you are drowned in the darkness. What a Pisser."
+	end the story saying "As you creep up upon the safe the door swings open. Surprise Surprise, Wong isn't here and the safe is bare except for a small note left inside. You reach down to pick it up and begin reading (Behind you!). Right as you finish reading you turn around to see the old man who owns the restaurant. He holds a cynical smile as he removes his scraggy beard and fake teeth. It's Wong!!! Slowly he closes the door and locks it from the outside. You see the ceiling lights slowly fade as you are drowned in the darkness. What a Pisser."
 	
 [The easiest and quickest way to beat the game is bellow.
 Go north, then east, south, which will land you in Wong's house. 
